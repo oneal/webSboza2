@@ -2,7 +2,8 @@
 
 namespace AppBundle\Form;
 
-use Doctrine\DBAL\Types\TextType;
+use Symfony\Component\Form\Extension\Core\Type\ChoiceType;
+use Symfony\Component\Form\Extension\Core\Type\TextType;
 use Symfony\Bridge\Doctrine\Form\Type\EntityType;
 use Symfony\Component\Form\AbstractType;
 use Symfony\Component\Form\Extension\Core\Type\TextareaType;
@@ -30,26 +31,27 @@ class ContactType extends AbstractType
                 )
             ))
             ->add('email', TextType::class, array(
-                'lable' => 'Correo electrónico',
+                'label' => 'Correo electrï¿½nico',
                 'required' => 'required',
                 'attr' => array(
-                    'placeholder' => 'Correo electrónico'
+                    'placeholder' => 'Correo electrï¿½nico'
                 )
             ))
             ->add('mobile', TextType::class, array(
-                'label' => 'Móvil',
+                'label' => 'Mï¿½vil',
                 'required' => 'required',
                 'attr' => array(
-                    'placeholder' => 'Móvil'
+                    'placeholder' => 'Mï¿½vil'
                 )
             ))
-            ->add('curso', EntityType::class, array(
+            ->add('curso', ChoiceType::class, array(
                 'label' => 'Curso de interes',
                 'required' => 'required',
-                'class' => 'AppBundle:Curso',
-                'choice_label' => function($curso){
-                    return $curso->getName();
-                }
+                'choices'  => array(
+                    'Curos1' => 'Curos1',
+                    'Curos2' => 'Curos1',
+                    'Curos3' => 'Curos1',
+                ),
 
             ))
             ->add('observations', TextareaType::class, array(
@@ -68,7 +70,7 @@ class ContactType extends AbstractType
     public function configureOptions(OptionsResolver $resolver)
     {
         $resolver->setDefaults(array(
-            'data_class' => 'AppBundle\Entity\Entries'
+            'data_class' => 'AppBundle\Entity\Contact'
         ));
     }
 }

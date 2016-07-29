@@ -8,7 +8,7 @@ namespace AppBundle\Entity;
 class Curso
 {
     /**
-     * @var integer
+     * @var int
      */
     private $id;
 
@@ -21,7 +21,7 @@ class Curso
     /**
      * Get id
      *
-     * @return integer
+     * @return int
      */
     public function getId()
     {

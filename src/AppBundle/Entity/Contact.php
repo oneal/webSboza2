@@ -2,43 +2,39 @@
 
 namespace AppBundle\Entity;
 
-/**
- * Contact
- */
+use Symfony\Component\Validator\Constraints as Assert;
+
 class Contact
 {
-    /**
-     * @var integer
-     */
     private $id;
 
     /**
-     * @var string
+     * @Assert\NotBlank()
      */
     private $name;
 
     /**
-     * @var string
+     * @Assert\NotBlank()
      */
-    private $lastname;
+    private $lastName;
 
     /**
-     * @var string
+     * @Assert\NotBlank()
      */
     private $email;
 
     /**
-     * @var string
+     * @Assert\NotBlank()
      */
     private $mobile;
 
     /**
-     * @var string
+     * @Assert\NotBlank()
      */
     private $curso;
 
     /**
-     * @var string
+     * @Assert\NotBlank()
      */
     private $observations;
 
@@ -46,7 +42,7 @@ class Contact
     /**
      * Get id
      *
-     * @return integer
+     * @return int
      */
     public function getId()
     {
@@ -78,27 +74,27 @@ class Contact
     }
 
     /**
-     * Set lastname
+     * Set lastName
      *
-     * @param string $lastname
+     * @param string $lastName
      *
      * @return Contact
      */
-    public function setLastname($lastname)
+    public function setLastName($lastName)
     {
-        $this->lastname = $lastname;
+        $this->lastName = $lastName;
 
         return $this;
     }
 
     /**
-     * Get lastname
+     * Get lastName
      *
      * @return string
      */
-    public function getLastname()
+    public function getLastName()
     {
-        return $this->lastname;
+        return $this->lastName;
     }
 
     /**
@@ -197,3 +193,4 @@ class Contact
         return $this->observations;
     }
 }
+
