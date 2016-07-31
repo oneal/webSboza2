@@ -1,0 +1,103 @@
+body {
+  width: 100%;
+  margin: 0 auto;
+  background: #aa198d;
+}
+.wrapper-content {
+  width: 960px;
+  margin: 0 auto;
+}
+.header-top {
+  width: 100%;
+  background: #cccccc;
+}
+.header-top .info-header {
+  display: inline-block;
+  width: 60%;
+}
+.header-top .info-header .link-email {
+  border-right: 2px solid #000;
+  padding-right: 5px;
+}
+.header-top .info-header a {
+  color: #000;
+  text-decoration: none;
+}
+.header-top .social-header {
+  display: inline-block;
+  width: 39%;
+  text-align: right;
+}
+.header-top .social-header .date {
+  border-right: 2px solid #000;
+  padding-right: 5px;
+}
+.header-top .social-header ul {
+  display: inline-block;
+  list-style: none;
+}
+.header {
+  width: 100%;
+  background: #aa198d;
+  margin: 0 auto;
+}
+.header .logo {
+  padding: 10px;
+}
+.content {
+  background: #aa198d;
+  color: #fff;
+}
+.content .content-form .info-form {
+  text-align: center;
+}
+.content .content-form .form .wrapper-form {
+  width: 510px;
+  margin: 0 auto;
+  padding-bottom: 37px;
+}
+.content .content-form .form .wrapper-form .text-form {
+  text-align: center;
+}
+.content .content-form .form .wrapper-form .form-fields {
+  padding: 5px;
+}
+.content .content-form .form .wrapper-form .form-fields .field {
+  width: 68%;
+  display: inline-block;
+}
+.content .content-form .form .wrapper-form .form-fields .field input {
+  width: 100%;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+}
+.content .content-form .form .wrapper-form .form-fields .field textarea {
+  width: 100%;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+}
+.content .content-form .form .wrapper-form .form-fields .label {
+  width: 31%;
+  display: inline-block;
+  vertical-align: top;
+}
+.footer {
+  width: 100%;
+  background: #95d600;
+  height: 100%;
+}
+.footer .logo-footer {
+  padding: 10px;
+}
+.footer .address-footer {
+  width: 60%;
+  display: inline-block;
+}
+.footer .phone-footer {
+  width: 39%;
+  display: inline-block;
+  vertical-align: top;
+  text-align: right;
+}

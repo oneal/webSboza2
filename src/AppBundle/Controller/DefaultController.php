@@ -15,6 +15,16 @@ class DefaultController extends Controller
      */
     public function indexAction(Request $request)
     {
+        $form = $this->contactHome($request);
+
+        return $this->render('desktop/index.html.twig', array(
+                'form' => $form->createView()
+            )
+        );
+    }
+
+    public function contactHome(Request $request)
+    {
         $contactModel = new Contact();
 
         $form = $this->createForm(ContactType::class, $contactModel);
@@ -28,12 +38,12 @@ class DefaultController extends Controller
 
             $message = \Swift_Message::newInstance()
                 ->setSubject('Hello Email')
-                ->setFrom('oneal152@gmail.com')
+                ->setFrom($form->getData()->getEmail())
                 ->setTo('oneal152@gmail.com')
                 ->setBody(
                     $this->renderView(
                     // app/Resources/views/Emails/registration.html.twig
-                        'Emails/Registration.html.twig', array(
+                        'Emails/contact.html.twig', array(
                             'data' => $form->getData()
                         )
                     ),
@@ -41,17 +51,37 @@ class DefaultController extends Controller
                 )->addPart('text/plain');
 
             $this->get('mailer')->send($message);
+
+            $message2 = \Swift_Message::newInstance()
+                ->setSubject('Hello Email')
+                ->setFrom('oneal152@gmail.com')
+                ->setTo($form->getData()->getEmail())
+                ->setBody(
+                    $this->renderView(
+                    // app/Resources/views/Emails/registration.html.twig
+                        'Emails/automatic_response.html.twig', array(
+                            'data' => $form->getData()
+                        )
+                    ),
+                    'text/html'
+                )->addPart('text/plain');
+
+            $this->get('mailer')->send($message2);
+
+            return $this->generateUrl('thanks');
+
         }
 
-        return $this->render('desktop/index.html.twig', array(
-                'form' => $form->createView()
-            )
-        );
+        return $form;
+
     }
 
-    public function contactHomeAction(Request $request)
-    {
+    /**
+     * @Route("/gracias", name="thanks")
+     */
 
+    public function thanksAction(Request $request){
+        return $this->render('desktop/thanks.html.twig');
     }
 
     public function cursosAction(Request $request)

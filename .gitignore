@@ -1,3 +1,4 @@
 vendor
 var
 app/config/parameters.yml
+web/sboza2/*

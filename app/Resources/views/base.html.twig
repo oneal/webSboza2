@@ -2,12 +2,21 @@
 <html>
     <head>
         <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>{% block title %}Welcome!{% endblock %}</title>
         {% block stylesheets %}{% endblock %}
         <link rel="icon" type="image/x-icon" href="{{ asset('favicon.ico') }}" />
+        <link href="{{ asset('sboza2/css/font-awesome.min.css') }}" rel="stylesheet" />
+        <link href="{{ asset('sboza2/css/styles.css') }}" rel="stylesheet" />
     </head>
     <body>
-        {% block body %}{% endblock %}
+        {% block header %}
+            {% include ':desktop:_header.html.twig' %}
+        {% endblock %}
+        {% block content %}{% endblock %}
+        {% block footer %}
+            {% include ':desktop:_footer.html.twig' %}
+        {% endblock %}
         {% block javascripts %}{% endblock %}
     </body>
 </html>
