@@ -4,11 +4,31 @@
             <div class="info-header">
                 <a class="link-email" href="mailto:info@sboza2.com">info@sboza2.com</a>
                 <span>
-                    <i class="fa fa-phone" aria-hidden="true"></i> <i class="fa fa-whatsapp" aria-hidden="true"></i> pidenos más informacion <pan>654 468 158</pan>
+                    <i class="fa fa-phone" aria-hidden="true"></i> <i class="fa fa-whatsapp" aria-hidden="true"></i> pidenos más informacion <a href="tel:+34654468158"><span class="phone">654 468 158</span></a>
                 </span>
             </div>
             <div class="social-header">
-                <span class="date">31 de julio 2016</span>
+                <span class="date">{{ "now" | date('l, j - F - Y')|replace({
+                                'January'  : 'Enero',
+                                'Febrary'  : 'Febrero',
+                                'March'    : 'Marzo',
+                                'April'    : 'Abril',
+                                'May'      : 'Mayo',
+                                'June'     : 'Junio',
+                                'July'     : 'Julio',
+                                'August'   : 'Agosto',
+                                'September': 'Septiembre',
+                                'Octover'  : 'Octubre',
+                                'November' : 'Noviembre',
+                                'December' : 'Diciembre',
+                                'Monday'   : 'Lunes',
+                                'Tuesday'  : 'Martes',
+                                'Wednesday': 'Miercoles',
+                                'Thursday' : 'Jueves',
+                                'Friday'   : 'Viernes',
+                                'Saturday' : 'Sabado',
+                                'Sunday'   : 'Domingo'
+                                })}}</span>
                 <a href="#">campus</a>
                 <ul>
                     <li><i class="fa fa-facebook" aria-hidden="true"></i></li>

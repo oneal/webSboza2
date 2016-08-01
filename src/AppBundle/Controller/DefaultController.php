@@ -17,6 +17,10 @@ class DefaultController extends Controller
     {
         $form = $this->contactHome($request);
 
+        if($form->isSubmitted()){
+            return $this->redirectToRoute('thanks');
+        }
+
         return $this->render('desktop/index.html.twig', array(
                 'form' => $form->createView()
             )
@@ -67,9 +71,6 @@ class DefaultController extends Controller
                 )->addPart('text/plain');
 
             $this->get('mailer')->send($message2);
-
-            return $this->generateUrl('thanks');
-
         }
 
         return $form;

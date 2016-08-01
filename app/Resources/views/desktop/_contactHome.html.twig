@@ -1,17 +1,11 @@
 {% form_theme form ':form:form_theme.html.twig' %}
 
 <div class="content-form">
-    <div class="info-form">
-        <h1>Perdonad las molestias</h1>
-        <h2>web en contruccion</h2>
-        <h2>Nuestro programador ha ido a por tabaco</h2>
 
-
-    </div>
     <div class="form">
         <div class="wrapper-form">
             <div class="text-form">
-                <h3>Contacto</h3>
+                <h2>Contacto</h2>
                 <h3>UNA ATENCIÓN PERSONALIZADA</h3>
                 <p>Si deseas recibir más información sobre un área específica de nuestra formación
                     puedes ponerte en contacto con nosotros a través del siguiente formulario.</p>
@@ -19,6 +13,16 @@
             {{ form_start(form ,{'action':'', 'method':'POST'}) }}
             {{ form_widget(form) }}
             {{ form_end(form) }}
+
+            <div class="footer-form">
+                <ul>
+                    <li><p class="icon"><i class="fa fa-clock-o" aria-hidden="true"></i></p> <p class="text">Horario de atención<br/>De Lunes a Viernes, de 10:00 a 14:00 y de 16:00 a 22:00 h.</p> </li>
+                    <li><p class="icon"><i class="fa fa-phone" aria-hidden="true"></i></p> <p class="text">953 080 666 - 669 970 256</p></li>
+                    <li><p class="icon"><i class="fa fa-map-marker" aria-hidden="true"></i></p> <p class="text">Camino de ronda, 204, granada<br>parada de metropolitano villarejo,(situada a 200 metros)</p></li>
+                    </li>
+                </ul>
+            </div>
+
         </div>
     </div>
 </div>

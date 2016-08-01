@@ -1,7 +1,10 @@
+@import 'fonts.less';
+
 body{
   width: 100%;
   margin: 0 auto;
   background: #aa198d;
+  font-family: "HelveticaNeueLTStd Lt", arial, sans-serif;
 }
 
 .wrapper-content{
@@ -15,6 +18,10 @@ body{
   .info-header{
     display: inline-block;
     width: 60%;
+    .phone{
+      font-size: 22px;
+      color: #aa198d;
+    }
     .link-email{
       border-right: 2px solid #000;
       padding-right: 5px;
@@ -51,18 +58,55 @@ body{
 .content{
   background: #aa198d;
   color: #fff;
+  .info{
+    text-align: center;
+    font-family: "Bebas Neue", arial, sans-serif;
+    h1{
+      font-size: 59px;
+    }
+    h3{
+      font-size: 39px;
+    }
+    h2{
+      font-size: 49px;
+    }
+  }
   .content-form{
 
-    .info-form{
-      text-align: center;
+    .footer-form{
+      ul{
+        list-style: none;
+        padding: 0;
+        .icon{
+          width: 9%;
+          display: inline-block;
+          vertical-align: top;
+          i{
+            font-size: 25px;
+          }
+        }
+        .text{
+          display: inline-block;
+          width: 90%;
+        }
+
+      }
     }
+
     .form{
       .wrapper-form{
-        width: 510px;
+        width: 540px;
         margin: 0 auto;
         padding-bottom: 37px;
         .text-form{
           text-align: center;
+          h2{
+            color: #999999;
+          }
+          h3{
+            font-family: "Bebas Neue", arial, sans-serif;
+            font-size: 38px;
+          }
         }
         .form-fields{
           padding: 5px;
@@ -112,6 +156,13 @@ body{
     display: inline-block;
     vertical-align: top;
     text-align: right;
+    a{
+      text-decoration: none;
+    }
+    .phone{
+      font-size: 25px;
+      color: #fff;
+    }
   }
 
 }
