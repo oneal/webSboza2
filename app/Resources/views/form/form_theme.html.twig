@@ -32,4 +32,32 @@
     {%- endif -%}
 {%- endblock form_label -%}
 
-{%- block button_label -%}{%- endblock -%}
+{%- block button_widget -%}
+    {%- if label is empty -%}
+        {%- if label_format is not empty -%}
+            {% set label = label_format|replace({
+            '%name%': name,
+            '%id%': id,
+            }) %}
+        {%- else -%}
+            {% set label = name|humanize %}
+        {%- endif -%}
+    {%- endif -%}
+    <div class="form-fields">
+        <div class="label">
+        </div>
+        <div class="field">
+            <button type="{{ type|default('button') }}" {{ block('button_attributes') }}>{{ translation_domain is same as(false) ? label : label|trans({}, translation_domain) }}</button>
+        </div>
+    </div>
+{%- endblock button_widget -%}
+
+{%- block submit_widget -%}
+    {%- set type = type|default('submit') -%}
+    {{ block('button_widget') }}
+{%- endblock submit_widget -%}
+
+{%- block reset_widget -%}
+    {%- set type = type|default('reset') -%}
+    {{ block('button_widget') }}
+{%- endblock reset_widget -%}

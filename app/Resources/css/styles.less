@@ -8,23 +8,33 @@ body{
 }
 
 .wrapper-content{
-  width: 960px;
+  width: 1024px;
   margin: 0 auto;
 }
 
 .header-top{
   width: 100%;
   background: #cccccc;
+  height: 32px;
+  padding-top: 4px;
   .info-header{
     display: inline-block;
-    width: 60%;
+    width: 50%;
+    font-weight: bold;
+    font-size: 14px;
+    span{
+      padding-left: 10px;
+      i{
+        padding-right: 5px;
+      }
+    }
     .phone{
-      font-size: 22px;
+      font-size: 18px;
       color: #aa198d;
     }
     .link-email{
       border-right: 2px solid #000;
-      padding-right: 5px;
+      padding-right: 12px;
     }
     a{
       color: #000;
@@ -33,15 +43,27 @@ body{
   }
   .social-header{
     display: inline-block;
-    width: 39%;
+    width: 49%;
     text-align: right;
+    font-weight: bold;
+    font-size: 14px;
     .date{
       border-right: 2px solid #000;
-      padding-right: 5px;
+      padding-right: 12px;
     }
-    ul{
+    a{
+      color: #000;
+      text-decoration: none;
+      padding-left: 9px;
+    }
+    .social-networks{
       display: inline-block;
-      list-style: none;
+      width: 26%;
+      vertical-align: middle;
+      img{
+        width: 18px;
+        height: 18px;
+      }
     }
   }
 }
@@ -61,18 +83,24 @@ body{
   .info{
     text-align: center;
     font-family: "Bebas Neue", arial, sans-serif;
+    padding-top: 30px;
     h1{
-      font-size: 59px;
+      font-size: 74px;
+      letter-spacing: 3px;
     }
+
     h3{
-      font-size: 39px;
+      font-size: 51px;
+      line-height: 67px;
+      letter-spacing: 3px;
+      span{
+        font-size: 54px;
+      }
     }
-    h2{
-      font-size: 49px;
-    }
+
   }
   .content-form{
-
+    margin-top: 110px;
     .footer-form{
       ul{
         list-style: none;
@@ -81,8 +109,8 @@ body{
           width: 9%;
           display: inline-block;
           vertical-align: top;
-          i{
-            font-size: 25px;
+          img{
+            width: 32px;
           }
         }
         .text{
@@ -95,29 +123,46 @@ body{
 
     .form{
       .wrapper-form{
-        width: 540px;
+        width: 633px;
         margin: 0 auto;
         padding-bottom: 37px;
+        form{
+          margin-top: 70px;
+        }
         .text-form{
           text-align: center;
           h2{
             color: #999999;
+            letter-spacing: 10px;
+            text-transform: uppercase;
           }
-          h3{
+          .text-title-form{
             font-family: "Bebas Neue", arial, sans-serif;
-            font-size: 38px;
+            font-size: 44px;
+            letter-spacing: 3px;
+            height: 20px;
           }
         }
         .form-fields{
           padding: 5px;
           .field{
-            width: 68%;
+            width: 64%;
             display: inline-block;
+            .form-button{
+              border-radius: 5px 5px 5px 5px;
+              -moz-border-radius: 5px 5px 5px 5px;
+              -webkit-border-radius: 5px 5px 5px 5px;
+              border: none;
+              color: #aa198d;
+              background: #fff;
+              padding: 5px 55px;
+            }
             input{
               width: 100%;
               -webkit-border-radius: 3px;
               -moz-border-radius: 3px;
               border-radius: 3px;
+              border: none;
             }
             textarea{
               width: 100%;
@@ -125,11 +170,16 @@ body{
               -moz-border-radius: 3px;
               border-radius: 3px;
             }
+            select{
+              width: 100%;
+            }
           }
           .label{
-            width: 31%;
+            width: 35%;
             display: inline-block;
             vertical-align: top;
+            text-transform: uppercase;
+            font-size: 13px;
           }
         }
         
@@ -143,19 +193,29 @@ body{
 .footer{
   width: 100%;
   background: #95d600;
-  height: 100%;
+  height: 400px;
+  position: relative;
   .logo-footer{
     padding: 10px;
   }
   .address-footer{
     width: 60%;
     display: inline-block;
+    h3{
+      font-family: "Bebas Neue", arial, sans-serif;
+      font-size: 28px;
+      height: 10px;
+    }
+    a{
+      text-decoration: none;
+      color: #000;
+    }
   }
   .phone-footer{
     width: 39%;
     display: inline-block;
-    vertical-align: top;
     text-align: right;
+    font-weight: bold;
     a{
       text-decoration: none;
     }

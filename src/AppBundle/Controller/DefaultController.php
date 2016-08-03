@@ -43,7 +43,7 @@ class DefaultController extends Controller
             $message = \Swift_Message::newInstance()
                 ->setSubject('Hello Email')
                 ->setFrom($form->getData()->getEmail())
-                ->setTo('oneal152@gmail.com')
+                ->setTo('info@amcinformatica.com')
                 ->setBody(
                     $this->renderView(
                     // app/Resources/views/Emails/registration.html.twig
@@ -56,21 +56,6 @@ class DefaultController extends Controller
 
             $this->get('mailer')->send($message);
 
-            $message2 = \Swift_Message::newInstance()
-                ->setSubject('Hello Email')
-                ->setFrom('oneal152@gmail.com')
-                ->setTo($form->getData()->getEmail())
-                ->setBody(
-                    $this->renderView(
-                    // app/Resources/views/Emails/registration.html.twig
-                        'Emails/automatic_response.html.twig', array(
-                            'data' => $form->getData()
-                        )
-                    ),
-                    'text/html'
-                )->addPart('text/plain');
-
-            $this->get('mailer')->send($message2);
         }
 
         return $form;

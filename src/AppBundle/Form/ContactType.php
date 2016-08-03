@@ -3,6 +3,7 @@
 namespace AppBundle\Form;
 
 use Symfony\Component\Form\Extension\Core\Type\ChoiceType;
+use Symfony\Component\Form\Extension\Core\Type\ResetType;
 use Symfony\Component\Form\Extension\Core\Type\TextType;
 use Symfony\Bridge\Doctrine\Form\Type\EntityType;
 use Symfony\Component\Form\AbstractType;
@@ -17,51 +18,52 @@ class ContactType extends AbstractType
     {
         $builder
             ->add('name', TextType::class, array(
-                'label' => 'Nombre',
+                'label' => 'Nombre(*)',
                 'required' => 'required',
-                'attr' =>array(
-                    'placeholder' => 'Nombre'
-                )
             ))
             ->add('lastName', TextType::class, array(
-                'label' => 'Apellidos',
+                'label' => 'Apellidos(*)',
                 'required' => 'required',
-                'attr' => array(
-                    'placeholder' => 'Apellidos'
-                )
             ))
             ->add('email', TextType::class, array(
-                'label' => 'Correo electr�nico',
+                'label' => 'Correo electrónico(*)',
                 'required' => 'required',
-                'attr' => array(
-                    'placeholder' => 'Correo electr�nico'
-                )
             ))
             ->add('mobile', TextType::class, array(
-                'label' => 'M�vil',
+                'label' => 'Móvil(*)',
                 'required' => 'required',
-                'attr' => array(
-                    'placeholder' => 'M�vil'
-                )
             ))
             ->add('curso', ChoiceType::class, array(
-                'label' => 'Curso de interes',
+                'label' => 'Curso de interes(*)',
                 'required' => 'required',
                 'choices'  => array(
-                    'Curos1' => 'Curos1',
-                    'Curos2' => 'Curos1',
-                    'Curos3' => 'Curos1',
+                    'Curso de diseño gráfico y diseño web (En proceso de omologación)' => 'Curso de diseño gráfico y diseño web (En proceso de omologación)',
+                    'Curso superior de diseño editorial, publicitario y diseño web (En proceso de omologación)' => 'Curso superior de diseño editorial, publicitario y diseño web (En proceso de omologación)',
+                    'Máster en diseño gráfico (En proceso de omologación)' => 'Máster en diseño gráfico (En proceso de omologación)',
+                    'Curso de motion graphics (En proceso de omologación)' => 'Curso de motion graphics (En proceso de omologación)',
+                    'Curso superior de programación y desarrollo de aplicaciones web' => ' Curso superior de programación y desarrollo de aplicaciones web',
+                    'Curso de videojuegos para dispositivos moviles' => 'Curso de videojuegos para dispositivos moviles',
+                    'Master en concept y grafismo para videojuegos con zbrush' => 'Master en concept y grafismo para videojuegos con zbrush',
+                    'Grado profesional en cine de animacion 3D, videojuegos e ilustración' => 'Grado profesional en cine de animacion 3D, videojuegos e ilustración',
+                    'Master en infoarquitectura 3D e interiores' => 'Master en infoarquitectura 3D e interiores',
+                    'Máster en creación de portfolio' => 'Máster en creación de portfolio',
+                    'Curso superior de fotografía profesional' => 'Curso superior de fotografía profesional',
+                    'Curso de caracterización y FX' => 'Curso de caracterización y FX',
+                    'Curso de ilustración editorial y digital' => 'Curso de ilustración editorial y digital'
+
                 ),
 
             ))
             ->add('observations', TextareaType::class, array(
-                'label' => 'Observaciones',
+                'label' => 'Observaciones(*)',
                 'required' => 'required',
-                'attr' => array(
-                    'placeholder' => 'Observaciones'
-                )
             ))
-            ->add('submit', SubmitType::class);
+            ->add('Enviar', SubmitType::class, array(
+                'attr'=> array(
+                    'class' => 'form-button'
+                )
+            ));
+
     }
 
     /**
