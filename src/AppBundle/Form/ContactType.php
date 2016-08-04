@@ -36,6 +36,7 @@ class ContactType extends AbstractType
             ->add('curso', ChoiceType::class, array(
                 'label' => 'Curso de interes(*)',
                 'required' => 'required',
+                'placeholder' => 'Elije tu curso',
                 'choices'  => array(
                     'Curso de diseño gráfico y diseño web ' => 'Curso de diseño gráfico y diseño web',
                     'Curso superior de diseño editorial, publicitario y diseño web (En proceso de omologación)' => 'Curso superior de diseño editorial, publicitario y diseño web (En proceso de omologación)',
