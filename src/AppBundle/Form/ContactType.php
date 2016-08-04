@@ -37,7 +37,7 @@ class ContactType extends AbstractType
                 'label' => 'Curso de interes(*)',
                 'required' => 'required',
                 'choices'  => array(
-                    'Curso de diseño gráfico y diseño web (En proceso de omologación)' => 'Curso de diseño gráfico y diseño web (En proceso de omologación)',
+                    'Curso de diseño gráfico y diseño web ' => 'Curso de diseño gráfico y diseño web',
                     'Curso superior de diseño editorial, publicitario y diseño web (En proceso de omologación)' => 'Curso superior de diseño editorial, publicitario y diseño web (En proceso de omologación)',
                     'Máster en diseño gráfico (En proceso de omologación)' => 'Máster en diseño gráfico (En proceso de omologación)',
                     'Curso de motion graphics (En proceso de omologación)' => 'Curso de motion graphics (En proceso de omologación)',
@@ -49,7 +49,9 @@ class ContactType extends AbstractType
                     'Máster en creación de portfolio' => 'Máster en creación de portfolio',
                     'Curso superior de fotografía profesional' => 'Curso superior de fotografía profesional',
                     'Curso de caracterización y FX' => 'Curso de caracterización y FX',
-                    'Curso de ilustración editorial y digital' => 'Curso de ilustración editorial y digital'
+                    'Curso de ilustración editorial y digital (En proceso de omologación)' => 'Curso de ilustración editorial y digital (En proceso de omologación)',
+                    'Curso de dibujo para tatuadores' => 'Curso de dibujo para tatuadores',
+                    'Curso de cómic' => 'Curso de cómic'
 
                 ),
 

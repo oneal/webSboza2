@@ -40,7 +40,7 @@ class DefaultController extends Controller
             $em->persist($form->getData());
             $em->flush();
 
-            $message = \Swift_Message::newInstance()
+            /*$message = \Swift_Message::newInstance()
                 ->setSubject('Hello Email')
                 ->setFrom($form->getData()->getEmail())
                 ->setTo('info@amcinformatica.com')
@@ -53,8 +53,17 @@ class DefaultController extends Controller
                     ),
                     'text/html'
                 )->addPart('text/plain');
+                mail()
+            $this->get('mailer')->send($message);*/
 
-            $this->get('mailer')->send($message);
+            $headers = "From: ".$form->getData()->getEmail();
+
+            mail("info@sboza2.com","Solicitud Curso sboza2",
+                utf8_decode(strip_tags($this->renderView(
+                'Emails/contact.html.twig', array(
+                    'data' => $form->getData()
+                )
+            ))),$headers);
 
         }
 

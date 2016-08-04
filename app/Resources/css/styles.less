@@ -12,6 +12,7 @@ body{
   margin: 0 auto;
 }
 
+
 .header-top{
   width: 100%;
   background: #cccccc;
@@ -24,8 +25,10 @@ body{
     font-size: 14px;
     span{
       padding-left: 10px;
-      i{
+      img{
+        width: 17px;
         padding-right: 5px;
+        vertical-align: middle;
       }
     }
     .phone{
@@ -51,14 +54,16 @@ body{
       border-right: 2px solid #000;
       padding-right: 12px;
     }
+    .campus-header{
+      padding-left: 9px;
+    }
     a{
       color: #000;
       text-decoration: none;
-      padding-left: 9px;
     }
     .social-networks{
       display: inline-block;
-      width: 26%;
+      width: 30%;
       vertical-align: middle;
       img{
         width: 18px;
@@ -80,6 +85,16 @@ body{
 .content{
   background: #aa198d;
   color: #fff;
+  .info-thank{
+    text-align: center;
+    font-family: "Bebas Neue", arial, sans-serif;
+    font-size: 47px;
+  }
+  .logo-thanks{
+    i{
+      font-size: 71px;
+    }
+  }
   .info{
     text-align: center;
     font-family: "Bebas Neue", arial, sans-serif;
@@ -192,8 +207,8 @@ body{
 
 .footer{
   width: 100%;
-  background: #95d600;
-  height: 400px;
+  background: url('../img/bg-footer.png') repeat;
+  height: 100%;
   position: relative;
   .logo-footer{
     padding: 10px;
@@ -216,6 +231,11 @@ body{
     display: inline-block;
     text-align: right;
     font-weight: bold;
+    img{
+      width: 17px;
+      vertical-align: middle;
+      padding-right: 6px;
+    }
     a{
       text-decoration: none;
     }
