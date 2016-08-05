@@ -39,9 +39,9 @@ class ContactType extends AbstractType
                 'placeholder' => 'Elije tu curso',
                 'choices'  => array(
                     'Curso de diseño gráfico y diseño web ' => 'Curso de diseño gráfico y diseño web',
-                    'Curso superior de diseño editorial, publicitario y diseño web (En proceso de omologación)' => 'Curso superior de diseño editorial, publicitario y diseño web (En proceso de omologación)',
-                    'Máster en diseño gráfico (En proceso de omologación)' => 'Máster en diseño gráfico (En proceso de omologación)',
-                    'Curso de motion graphics (En proceso de omologación)' => 'Curso de motion graphics (En proceso de omologación)',
+                    'Curso superior de diseño editorial, publicitario y diseño web (En proceso de homologación)' => 'Curso superior de diseño editorial, publicitario y diseño web (En proceso de homologación)',
+                    'Máster en diseño gráfico (En proceso de homologación)' => 'Máster en diseño gráfico (En proceso de homologación)',
+                    'Curso de motion graphics (En proceso de homologación)' => 'Curso de motion graphics (En proceso de homologación)',
                     'Curso superior de programación y desarrollo de aplicaciones web' => ' Curso superior de programación y desarrollo de aplicaciones web',
                     'Curso de videojuegos para dispositivos moviles' => 'Curso de videojuegos para dispositivos moviles',
                     'Master en concept y grafismo para videojuegos con zbrush' => 'Master en concept y grafismo para videojuegos con zbrush',
@@ -50,7 +50,7 @@ class ContactType extends AbstractType
                     'Máster en creación de portfolio' => 'Máster en creación de portfolio',
                     'Curso superior de fotografía profesional' => 'Curso superior de fotografía profesional',
                     'Curso de caracterización y FX' => 'Curso de caracterización y FX',
-                    'Curso de ilustración editorial y digital (En proceso de omologación)' => 'Curso de ilustración editorial y digital (En proceso de omologación)',
+                    'Curso de ilustración editorial y digital (En proceso de homologación)' => 'Curso de ilustración editorial y digital (En proceso de homologación)',
                     'Curso de dibujo para tatuadores' => 'Curso de dibujo para tatuadores',
                     'Curso de cómic' => 'Curso de cómic'
 
