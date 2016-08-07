@@ -12,6 +12,8 @@
         <link href="{{ asset('sboza2/css/font-awesome.min.css') }}" rel="stylesheet" />
         <link href="{{ asset('sboza2/css/styles.css') }}" rel="stylesheet" />
         <link href="{{ asset('sboza2/css/responsive.css') }}" rel="stylesheet" />
+        <script src="{{ asset('sboza2/js/jquery-3.1.0.min.js') }}"></script>
+
     </head>
     <body>
         {% block header %}
@@ -21,6 +23,78 @@
         {% block footer %}
             {% include ':desktop:_footer.html.twig' %}
         {% endblock %}
-        {% block javascripts %}{% endblock %}
+        {% block javascripts %}
+            <script>
+                document.getElementById('hamburgler').addEventListener('click', checkNav);
+                window.addEventListener("keyup", function(e) {
+                    if (e.keyCode == 27) closeNav();
+                }, false);
+
+                function checkNav() {
+                    if (document.body.classList.contains('hamburgler-active')) {
+                        closeNav();
+                    } else {
+                        openNav();
+                    }
+                }
+
+                function closeNav() {
+                    document.body.classList.remove('hamburgler-active');
+                }
+
+                function openNav() {
+                    document.body.classList.add('hamburgler-active');
+                }
+            </script>
+            <script>
+                var boxMobilePhone = $(".box_phone_mobile");
+                var phoneMobile = $('#phone-mobile');
+                var active = false;
+                phoneMobile.on( "click", function(){
+                    if(active){
+                        $('.active-phone').css("display","none");
+                        boxMobilePhone.removeClass("active-phone");
+                        active = false;
+                        console.log(active);
+                    }else{
+                        boxMobilePhone.addClass("active-phone");
+                        boxMobilePhone.css("display","block");
+                        active = true;
+                    }
+                })
+
+                var boxMobileEmail = $(".box_email_mobile");
+                var EmailMobile = $('#email-mobile');
+                var active = false;
+                EmailMobile.on( "click", function(){
+                    if(active){
+                        $('.active-phone').css("display","none");
+                        boxMobileEmail.removeClass("active-phone");
+                        active = false;
+                        console.log(active);
+                    }else{
+                        boxMobileEmail.addClass("active-phone");
+                        boxMobileEmail.css("display","block");
+                        active = true;
+                    }
+                })
+
+                var boxMobileDate = $(".box_date_mobile");
+                var DateMobile = $('#date-mobile');
+                var active = false;
+                DateMobile.on( "click", function(){
+                    if(active){
+                        $('.active-phone').css("display","none");
+                        boxMobileDate.removeClass("active-phone");
+                        active = false;
+                        console.log(active);
+                    }else{
+                        boxMobileDate.addClass("active-phone");
+                        boxMobileDate.css("display","block");
+                        active = true;
+                    }
+                })
+            </script>
+        {% endblock %}
     </body>
 </html>

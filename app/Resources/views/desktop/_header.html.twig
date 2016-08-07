@@ -1,43 +1,55 @@
+{% set date =  "now" | date('l, j - F - Y')|replace({
+'January'  : 'Enero',
+'Febrary'  : 'Febrero',
+'March'    : 'Marzo',
+'April'    : 'Abril',
+'May'      : 'Mayo',
+'June'     : 'Junio',
+'July'     : 'Julio',
+'August'   : 'Agosto',
+'September': 'Septiembre',
+'Octover'  : 'Octubre',
+'November' : 'Noviembre',
+'December' : 'Diciembre',
+'Monday'   : 'Lunes',
+'Tuesday'  : 'Martes',
+'Wednesday': 'Miercoles',
+'Thursday' : 'Jueves',
+'Friday'   : 'Viernes',
+'Saturday' : 'Sabado',
+'Sunday'   : 'Domingo'
+}) %}
+
+<div class="hamburgler-menu">
+    <ul class="hamburgler-menu-list">
+        <li>never</li>
+        <li>gonna</li>
+        <li>give</li>
+        <li>you</li>
+        <li>up</li>
+    </ul>
+</div>
+
+<div id="hamburgler" class="hamburgler-icon-wrapper">
+    <span class="hamburgler-icon"></span>
+</div>
+
 <header>
-    <div class="header-top">
+    {% include ':desktop:_header_top.html.twig' %}
+    {% include ':desktop:_header_top_mobile.html.twig' %}
+    <div class="box_email_mobile">
         <div class="wrapper-content">
-            <div class="info-header">
-                <a class="link-email" href="mailto:info@sboza2.com">info@sboza2.com</a>
-                <span>
-                    <img src="{{ asset('sboza2/img/icons/Icono-2-05.png') }}"><img src="{{ asset('sboza2/img/icons/Icono 2-04.svg') }}"> pidenos más informacion <a href="tel:+34669970256"><span class="phone">669 970 256</span></a>
-                </span>
-            </div>
-            <div class="social-header">
-                <span class="date">{{ "now" | date('l, j - F - Y')|replace({
-                                'January'  : 'Enero',
-                                'Febrary'  : 'Febrero',
-                                'March'    : 'Marzo',
-                                'April'    : 'Abril',
-                                'May'      : 'Mayo',
-                                'June'     : 'Junio',
-                                'July'     : 'Julio',
-                                'August'   : 'Agosto',
-                                'September': 'Septiembre',
-                                'Octover'  : 'Octubre',
-                                'November' : 'Noviembre',
-                                'December' : 'Diciembre',
-                                'Monday'   : 'Lunes',
-                                'Tuesday'  : 'Martes',
-                                'Wednesday': 'Miercoles',
-                                'Thursday' : 'Jueves',
-                                'Friday'   : 'Viernes',
-                                'Saturday' : 'Sabado',
-                                'Sunday'   : 'Domingo'
-                                })}}</span>
-                <a class="campus-header" href="#">campus</a>
-                <div class="social-networks">
-                    <a href="https://es-la.facebook.com/sboza2/" target="_blank" rel="nofollow"><img src="{{ asset('sboza2/img/social-networks/facebook.png') }}" alt="Facebook" title="Facebook"></a>
-                    <a href="https://twitter.com/sboza2" target="_blank" rel="nofollow"><img src="{{ asset('sboza2/img/social-networks/twitter.png') }}" alt="Twitter" title="Twitter"></a>
-                    <a href="https://www.linkedin.com/company/sboza2" target="_blank" rel="nofollow"> <img src="{{ asset('sboza2/img/social-networks/link.png') }}" alt="Linkedin" title="Linkedin"></a>
-                    <a href="https://www.instagram.com/sboza2/" target="_blank" rel="nofollow"><img src="{{ asset('sboza2/img/social-networks/instagram.png') }}" alt="Instagram" title="Instagram">
-                    <img src="{{ asset('sboza2/img/social-networks/be.png') }}" alt="Be" title="Be">
-                </div>
-            </div>
+            <span class="title">Email: </span><a href="mailto:info@sboza2.com">info@sboza2.com</a>
+        </div>
+    </div>
+    <div class="box_phone_mobile">
+        <div class="wrapper-content">
+            <img src="{{ asset('sboza2/img/icons/Icono-2-05.png') }}"><img src="{{ asset('sboza2/img/icons/Icono 2-04.svg') }}"> pidenos más informaci&oacute;n <a href="tel:+34669970256"><span class="phone">669 970 256</span></a>
+        </div>
+    </div>
+    <div class="box_date_mobile">
+        <div class="wrapper-content">
+            <span class="date">{{ date }}</span>
         </div>
     </div>
     <div class="header">
@@ -45,6 +57,15 @@
             <div class="logo">
                 <a href="{{ path('homepage') }}" ><img src="{{ asset('sboza2/img/logo.svg') }}"></a>
             </div>
+            <nav>
+                <ul>
+                    <li><a href="#">Sección 1</a></li>
+                    <li><a href="#">Sección 2</a></li>
+                    <li><a href="#">Sección 3</a></li>
+                    <li><a href="#">Sección 4</a></li>
+                    <li><a href="#">Sección 5</a></li>
+                </ul>
+            </nav>
         </div>
     </div>
 </header>
