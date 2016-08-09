@@ -4,7 +4,7 @@
 body{
   width: 100%;
   margin: 0 auto;
-  background: #aa198d;
+  background: #80cc28;
   font-family: "HelveticaNeueLTStd Lt", arial, sans-serif;
   overflow-x: hidden !important;
 }
@@ -12,6 +12,11 @@ body{
 
 .wrapper-content{
   width: 1024px;
+  margin: 0 auto;
+}
+
+.wrapper-content-slide{
+  width: 740px;
   margin: 0 auto;
 }
 
@@ -56,6 +61,7 @@ body{
   background: #cccccc;
   height: 32px;
   padding-top: 4px;
+
 
 
   .info-header{
@@ -103,11 +109,15 @@ body{
     }
     .social-networks{
       display: inline-block;
-      width: 30%;
+      width: 49%;
       vertical-align: middle;
+      .text-contact-now{
+        padding-right: 11px;
+      }
       img{
         width: 18px;
         height: 18px;
+        vertical-align: middle;
       }
     }
   }
@@ -122,6 +132,7 @@ body{
     padding: 10px;
     display: inline-block;
   }
+
 
   nav {
     height: 40px;
@@ -163,6 +174,27 @@ body{
   }
 }
 
+.contact-now{
+  background: #fff;
+  padding: 8px 15px 4px 17px;
+  border-radius: 5px 5px 5px 5px;
+  -moz-border-radius: 5px 5px 5px 5px;
+  -webkit-border-radius: 5px 5px 5px 5px;
+  border: 0;
+  text-decoration: none;
+  color: #000;
+}
+
+.text-contact-now{
+  text-align: center;
+  margin-top: 34px;
+  img{
+    width: 27px;
+    padding-left: 10px;
+    vertical-align: middle;
+  }
+}
+
 .content{
   background: #aa198d;
   color: #fff;
@@ -170,10 +202,24 @@ body{
   .slide_show{
     max-width: 100%;
     margin: 0 auto;
+    background: #741c70;
+    padding-top: 30px;
+    padding-bottom: 30px;
     ul{
       list-style: none;
     }
   }
+
+  .text-contact-now{
+    text-align: center;
+    margin-top: 34px;
+    img{
+      width: 27px;
+      padding-left: 10px;
+      vertical-align: middle;
+    }
+  }
+
 
   .info-thank{
     text-align: center;
@@ -205,36 +251,58 @@ body{
 
   }
   .content-form{
-    margin-top: 110px;
-    .footer-form{
-      margin-top: 42px;
-      ul{
-        li{
-          padding-top: 10px;
-        }
-        list-style: none;
-        padding: 0;
-        .icon{
-          width: 9%;
-          display: inline-block;
-          vertical-align: top;
-          img{
-            width: 32px;
-          }
-        }
-        .text{
-          display: inline-block;
-          width: 90%;
-          a{
-            text-decoration: none;
-            color: #ffffff;
-          }
-        }
-
-      }
-    }
-
+    margin-top: 34px;
     .form{
+      .header-form{
+        margin-top: 24px;
+        .wrapper-header-form{
+          width: 833px;
+          margin: 0 auto;
+          .element-first{
+            display: inline-block;
+            width: 67%;
+            .icon{
+              width: 7%;
+              display: inline-block;
+              vertical-align: top;
+              img{
+                width: 32px;
+              }
+            }
+            .text{
+              display: inline-block;
+              width: 76%;
+              a{
+                text-decoration: none;
+                color: #ffffff;
+              }
+            }
+
+          }
+          .element-second{
+            display: inline-block;
+            width: 30%;
+            vertical-align: top;
+            .icon{
+              width: 16%;
+              display: inline-block;
+              vertical-align: top;
+              img{
+                width: 32px;
+              }
+            }
+            .text{
+              display: inline-block;
+              width: 81%;
+              a{
+                text-decoration: none;
+                color: #ffffff;
+              }
+            }
+
+          }
+        }
+      }
       .wrapper-form{
         width: 633px;
         margin: 0 auto;
@@ -305,7 +373,7 @@ body{
 
 .footer{
   width: 100%;
-  background: url('../img/bg-footer.png') repeat;
+  background: #80cc28;
   height: 100%;
   position: relative;
   .logo-footer{
@@ -325,22 +393,15 @@ body{
       color: #000;
     }
   }
-  .phone-footer{
-    width: 38%;
-    display: inline-block;
-    text-align: right;
-    font-weight: bold;
+  .text-contact-now{
+    text-align: left;
+    margin-top: 14px;
+    padding-bottom: 34px;
+    padding-left: 13px;
     img{
-      width: 17px;
+      width: 27px;
+      padding-left: 10px;
       vertical-align: middle;
-      padding-right: 6px;
-    }
-    a{
-      text-decoration: none;
-    }
-    .phone{
-      font-size: 25px;
-      color: #fff;
     }
   }
 
