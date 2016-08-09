@@ -2,12 +2,9 @@
 
 {% block content %}
     <div class="content">
+        {% include ':desktop:_slide_show.html.twig' %}
         <div class="wrapper-content">
-            <div class="info">
-                <h1>Perdonad las molestias</h1>
-                <h3>web en construcci&oacute;n<br>
-                <span>Nuestro programador ha ido a por tabaco</span></h3>
-            </div>
+
             {% include ':desktop:_contactHome.html.twig' with { 'form' : form } %}
 
         </div>
