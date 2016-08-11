@@ -18,23 +18,23 @@ class ContactType extends AbstractType
     {
         $builder
             ->add('name', TextType::class, array(
-                'label' => 'Nombre(*)',
+                'label' => 'Nombre*',
                 'required' => 'required',
             ))
             ->add('lastName', TextType::class, array(
-                'label' => 'Apellidos(*)',
+                'label' => 'Apellidos*',
                 'required' => 'required',
             ))
             ->add('email', TextType::class, array(
-                'label' => 'Correo electrónico(*)',
+                'label' => 'Correo electrónico*',
                 'required' => 'required',
             ))
             ->add('mobile', TextType::class, array(
-                'label' => 'Móvil(*)',
+                'label' => 'Móvil*',
                 'required' => 'required',
             ))
             ->add('curso', ChoiceType::class, array(
-                'label' => 'Curso de interes(*)',
+                'label' => 'Curso de interes*',
                 'required' => 'required',
                 'placeholder' => 'Elije tu curso',
                 'choices'  => array(
@@ -58,7 +58,7 @@ class ContactType extends AbstractType
 
             ))
             ->add('observations', TextareaType::class, array(
-                'label' => 'Observaciones(*)',
+                'label' => 'Observaciones*',
                 'required' => 'required',
             ))
             ->add('Enviar', SubmitType::class, array(

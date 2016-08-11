@@ -31,7 +31,8 @@
             <script>
                 $(document).ready(function(){
                     $('.bxslider').bxSlider({
-                        pager: false
+                        pager: false,
+                        auto: true
                     })
                 });
             </script>
@@ -58,7 +59,11 @@
                 }
             </script>
             <script>
-                var boxMobilePhone = $(".box_phone_mobile");
+                if (screen.width<660){
+                    $('#link-whatsapp').attr('href','intent://send/669970256#Intent;scheme=smsto;package=com.whatsapp;action=android.intent.action.SENDTO;end')
+                    $('#link-whatsapp-footer').attr('href','intent://send/669970256#Intent;scheme=smsto;package=com.whatsapp;action=android.intent.action.SENDTO;end')
+                }
+                /*var boxMobilePhone = $(".box_phone_mobile");
                 var phoneMobile = $('#phone-mobile');
                 var active = false;
                 phoneMobile.on( "click", function(){
@@ -104,7 +109,7 @@
                         boxMobileDate.css("display","block");
                         active = true;
                     }
-                })
+                })*/
             </script>
         {% endblock %}
     </body>

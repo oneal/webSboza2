@@ -2,7 +2,7 @@
     <div class="wrapper-content">
         <div class="header-top-content">
             <i id="email-mobile" class="fa fa-envelope" aria-hidden="true"></i>
-            <span id="phone-mobile"><img src="{{ asset('sboza2/img/icons/Icono 2-05.svg') }}"><img src="{{ asset('sboza2/img/icons/Icono 2-04.svg') }}"></span>
+            {#<span id="phone-mobile">#}<a href="tel:+34669970256"><img src="{{ asset('sboza2/img/icons/Icono 2-05.svg') }}"></a><a href="intent://send/669970256#Intent;scheme=smsto;package=com.whatsapp;action=android.intent.action.SENDTO;end"><img src="{{ asset('sboza2/img/icons/Icono 2-04.svg') }}"></a>{#</span>#}
             {% include ':desktop:_social_networks.html.twig' %}
         </div>
     </div>
