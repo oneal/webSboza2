@@ -18,39 +18,53 @@ class MenuBuilder implements  ContainerAwareInterface {
     public function mainMenu(FactoryInterface $factory, array $options)
     {
         $menu = $factory->createItem('root');
-        $menu->setChildrenAttributes(array('class'=>'nav navbar-nav'));
 
-        $menu->addChild("home", array(
-            'route' => 'homepage',
-            'rootClass'=>'nav navbar-nav'
+        $menu->addChild("Nuestro centro", array(
+            'uri' => '#nuestro-centro',
+        ));
+        $menu->addChild("Nuestros cursos", array(
+            'uri' => '#nuestros-cursos',
+        ));
+        $menu->addChild("Nuestros Profesores", array(
+            'uri' => '#nuestros-profesores',
+        ));
+        $menu->addChild("Siempre a la última", array(
+            'uri' => '#siempre-a-la-ultima',
+        ));
+        $menu->addChild("Contacto", array(
+            'uri' => '#contacto',
         ));
 
-        foreach($categories as $category){
-            $menu->addChild($category->getName(), array(
-                'route' => 'entriesCategory',
-                'routeParameters' => array(
-                    'id' => $category->getId(),
-                    'category' => $category->getName()
-                )
-            ));
-        }
+
 
         return $menu;
     }
 
-    public function mainMenuAdmin(FactoryInterface $factory, array $options){
+    public function mainMenuMobile(FactoryInterface $factory, array $options)
+    {
+        $menu = $factory->createItem('root');
+        $menu->setChildrenAttributes(array('class' => 'hamburgler-menu-list'));
 
-        $menu = $factory->createItem("root");
-        $menu->setChildrenAttributes(array('class' => 'nav nav-pills nav-stacked'));
+        $menu->addChild("Nuestro centro", array(
+            'uri' => '#nuestro-centro',
+        ));
+        $menu->addChild("Nuestros cursos", array(
+            'uri' => '#nuestros-cursos',
+        ));
+        $menu->addChild("Nuestros Profesores", array(
+            'uri' => '#nuestros-profesores',
+        ));
+        $menu->addChild("Siempre a la última", array(
+            'uri' => '#siempre-a-la-ultima',
+        ));
+        $menu->addChild("Contacto", array(
+            'uri' => '#contacto',
+        ));
 
 
-        $menu->addChild('Home', array('route' => 'adminHompage'));
-        $menu->addChild('Entradas', array('route' => 'adminEntries'));
-        $menu->addChild('Categorias', array('route' => 'adminCategories'));
-        /*$menu->addChild('Comentarios', array('comentarios' => ''));*/
 
         return $menu;
-
-
     }
+
+
 }

@@ -18,7 +18,8 @@
     left: 1em;
     height: 26px;
     width: 26px;
-    cursor: pointer
+    cursor: pointer;
+    z-index: 999;
   }
 
   .hamburgler-icon,
@@ -76,13 +77,16 @@
     left: 0;
     background-color: rgba(0, 0, 0, 0.9);
     color: white;
-    text-align: center
+    text-align: center;
+    max-width: 100%!important;
+    overflow-x: hidden!important;
   }
 
   .hamburgler-active .hamburgler-menu {
     opacity: 1;
     pointer-events: initial;
     max-height: 100%;
+    z-index: 99;
   }
 
   .hamburgler-menu-list {
@@ -103,6 +107,10 @@
       display: block;
       height: 31px;
       border-bottom: 1px solid;
+      a{
+        color: #ffffff;
+        text-decoration: none;
+      }
     }
   }
 
@@ -110,4 +118,28 @@
     transform: translate(-50%, -50%) scale(1)
   }
 
+  .our_cursos{
+    .block-cursos{
+      #spacing-block{
+        width: 100%;
+      }
+
+      .element-pink{
+        width: 49%;
+      }
+
+      .element-green{
+        width: 48%;
+      }
+    }
+  }
+
+  .team{
+    .team-detail{
+      width: 100%;
+      .team-person {
+        width: 50%;
+      }
+    }
+  }
 }

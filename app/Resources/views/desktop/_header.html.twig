@@ -21,13 +21,14 @@
 }) %}
 
 <div class="hamburgler-menu">
-    <ul class="hamburgler-menu-list">
+    {{ knp_menu_render('AppBundle:MenuBuilder:mainMenuMobile') }}
+    {#<ul class="hamburgler-menu-list">
         <li>never</li>
         <li>gonna</li>
         <li>give</li>
         <li>you</li>
         <li>up</li>
-    </ul>
+    </ul>#}
 </div>
 
 <div id="hamburgler" class="hamburgler-icon-wrapper">
@@ -58,13 +59,7 @@
                 <a href="{{ path('homepage') }}" ><img src="{{ asset('sboza2/img/logo.svg') }}"></a>
             </div>
             <nav>
-                <ul>
-                    <li><a href="#our_center" >Sección 1</a></li>
-                    <li><a href="#">Sección 2</a></li>
-                    <li><a href="#">Sección 3</a></li>
-                    <li><a href="#">Sección 4</a></li>
-                    <li><a href="#">Sección 5</a></li>
-                </ul>
+                {{ knp_menu_render('AppBundle:MenuBuilder:mainMenu') }}
             </nav>
         </div>
     </div>
