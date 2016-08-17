@@ -1,4 +1,4 @@
-{% set date =  "now" | date('l, j - F - Y')|replace({
+{#{% set date =  "now" | date('l, j - F - Y')|replace({
 'January'  : 'Enero',
 'Febrary'  : 'Febrero',
 'March'    : 'Marzo',
@@ -18,17 +18,10 @@
 'Friday'   : 'Viernes',
 'Saturday' : 'Sabado',
 'Sunday'   : 'Domingo'
-}) %}
+}) %}#}
 
 <div class="hamburgler-menu">
     {{ knp_menu_render('AppBundle:MenuBuilder:mainMenuMobile') }}
-    {#<ul class="hamburgler-menu-list">
-        <li>never</li>
-        <li>gonna</li>
-        <li>give</li>
-        <li>you</li>
-        <li>up</li>
-    </ul>#}
 </div>
 
 <div id="hamburgler" class="hamburgler-icon-wrapper">
@@ -38,21 +31,6 @@
 <header>
     {% include ':desktop:_header_top.html.twig' %}
     {% include ':desktop:_header_top_mobile.html.twig' %}
-    <div class="box_email_mobile">
-        <div class="wrapper-content">
-            <span class="title">Email: </span><a href="mailto:info@sboza2.com">info@sboza2.com</a>
-        </div>
-    </div>
-    <div class="box_phone_mobile">
-        <div class="wrapper-content">
-            <img src="{{ asset('sboza2/img/icons/Icono-2-05.png') }}"><img src="{{ asset('sboza2/img/icons/Icono 2-04.svg') }}"> pidenos más informaci&oacute;n <a href="tel:+34669970256"><span class="phone">669 970 256</span></a>
-        </div>
-    </div>
-    <div class="box_date_mobile">
-        <div class="wrapper-content">
-            <span class="date">{{ date }}</span>
-        </div>
-    </div>
     <div class="header">
         <div class="wrapper-content">
             <div class="logo">
