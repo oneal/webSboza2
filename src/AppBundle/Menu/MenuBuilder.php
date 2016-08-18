@@ -22,13 +22,13 @@ class MenuBuilder implements  ContainerAwareInterface {
         $menu->addChild("Nuestro centro", array(
             'uri' => '#nuestro-centro',
         ));
+        $menu->addChild("Nuestros equipo", array(
+            'uri' => '#nuestros-equipo',
+        ));
         $menu->addChild("Nuestros cursos", array(
             'uri' => '#nuestros-cursos',
         ));
-        $menu->addChild("Nuestros Profesores", array(
-            'uri' => '#nuestros-profesores',
-        ));
-        $menu->addChild("Siempre a la última", array(
+        $menu->addChild("Siempre a la ultima", array(
             'uri' => '#siempre-a-la-ultima',
         ));
         $menu->addChild("Contacto", array(
@@ -48,13 +48,13 @@ class MenuBuilder implements  ContainerAwareInterface {
         $menu->addChild("Nuestro centro", array(
             'uri' => '#nuestro-centro',
         ));
+        $menu->addChild("Nuestros equipo", array(
+            'uri' => '#nuestros-equipo',
+        ));
         $menu->addChild("Nuestros cursos", array(
             'uri' => '#nuestros-cursos',
         ));
-        $menu->addChild("Nuestros Profesores", array(
-            'uri' => '#nuestros-profesores',
-        ));
-        $menu->addChild("Siempre a la última", array(
+        $menu->addChild("Siempre a la ultima", array(
             'uri' => '#siempre-a-la-ultima',
         ));
         $menu->addChild("Contacto", array(
