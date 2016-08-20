@@ -2,3 +2,8 @@ vendor
 var
 app/config/parameters.yml
 web/sboza2/*
+.idea
+.idea/*
+.idea/webSboza2.iml
+web/bundles/framework
+web/sboza2/
