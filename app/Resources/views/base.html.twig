@@ -82,6 +82,12 @@
                     document.body.classList.add('hamburgler-active');
                 }
             </script>
+            <script>
+                if (screen.width<660){
+                    $('#link-whatsapp-footer').attr('href','intent://send/669970256#Intent;scheme=smsto;package=com.whatsapp;action=android.intent.action.SENDTO;end')
+                }
+            </script>
+
             {#<script>
                 var boxMobilePhone = $(".box_phone_mobile");
                 var phoneMobile = $('#phone-mobile');
