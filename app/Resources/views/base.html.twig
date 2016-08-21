@@ -50,17 +50,20 @@
 
                                 $('html,body').animate({scrollTop: targetOffset}, 1000);
 
-                                return false;
+                                if (document.body.classList.contains('hamburgler-active')) {
+                                    closeNav();
+                                } else {
+                                    openNav();
+                                }
 
+                                return false;
                             }
 
                         }
-
                     });
 
                 });
-            </script>
-            <script>
+
                 document.getElementById('hamburgler').addEventListener('click', checkNav);
                 window.addEventListener("keyup", function(e) {
                     if (e.keyCode == 27) closeNav();

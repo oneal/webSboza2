@@ -17,13 +17,13 @@
   }
 
   .hamburgler-icon-wrapper {
-    position: absolute;
     top: 1em;
     left: 1em;
     height: 26px;
     width: 26px;
     cursor: pointer;
-    z-index: 999;
+    z-index: 9999999;
+    position: fixed;
   }
 
   .hamburgler-icon,
@@ -90,7 +90,8 @@
     opacity: 1;
     pointer-events: initial;
     max-height: 100%;
-    z-index: 99;
+    z-index: 999999;
+    position: fixed;
   }
 
   .hamburgler-menu-list {
