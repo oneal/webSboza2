@@ -11,7 +11,7 @@ use Symfony\Component\HttpFoundation\Request;
 class DefaultController extends Controller
 {
     /**
-     * @Route("/", name="homepage")
+     * @Route("/{_locale}", name="homepage")
      */
     public function indexAction(Request $request)
     {
@@ -72,7 +72,7 @@ class DefaultController extends Controller
     }
 
     /**
-     * @Route("/gracias", name="thanks")
+     * @Route("/{_locale}/gracias", name="thanks")
      */
 
     public function thanksAction(Request $request){

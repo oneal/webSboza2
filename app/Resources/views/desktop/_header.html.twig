@@ -29,8 +29,10 @@
 </div>
 
 <header>
-    {% include ':desktop:_header_top.html.twig' %}
-    {% include ':desktop:_header_top_mobile.html.twig' %}
+    {% block menu %}
+        {% include ':desktop:_header_top.html.twig' %}
+        {% include ':desktop:_header_top_mobile.html.twig' %}
+    {% endblock %}
     <div class="header">
         <div class="wrapper-content">
             <div class="logo">

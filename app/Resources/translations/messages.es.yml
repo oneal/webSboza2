@@ -1,0 +1,63 @@
+frontend.title.our_center: Nuestro centro
+frontend.title.our_curses: Nuestros cursos
+frontend.title.team: Nuestro equipo
+frontend.title.news_home: Siempre a la &uacute;ltima
+frontend.title.contact: Contacto
+
+frontend.text.our_center_subtitle: 'Mas de 10 a&ntilde;os sacando lo mejor de tu vocaci&oacute;n'
+frontend.text.our_center_paragraph_1: 'Elegir d&oacute;nde y c&oacute;mo comienza tu futuro es una de las decisiones m&aacute;s importantes de tu vida. En Escuela sboza2 tenemos tres de los requisitos indispensables para que aciertes de lleno: un programa formativo inigualable, un equipo docente seleccionado de entre los mejores y, sobre todo, a&ntilde;os de grandes resultados.'
+frontend.text.our_center_paragraph_2: 'sboza2 es una escuela de arte, con centros en Ja&eacute;n y Granada. Su objetivo es ofrecer la mejor formaci&oacute;n en profesiones art&iacute;sticas a estudiantes interesados, proporcion&aacute;ndoles los mejores medios para formarse en &aacute;reas como animaci&oacute;n 3D, dise&ntilde;o gr&aacute;fico, c&oacute;mic, ilustraci&oacute;n tradicional, arte digital, creaci&oacute;n de videojuegos, fotograf&iacute;a, etc.'
+frontend.text.subtitle_list: 'MOTIVOS PARA ELEGIR sboza2'
+frontend.text.element_list1: '<strong>Equipo de formadores</strong> de reconocido recorrido profesional y experta capacidad docente, especializados en 3D, Ilustraci&oacute;n, Videojuegos, Dise&ntilde;o Gr&aacute;fico, Animaci&oacute;n, etc.'
+frontend.text.element_list2: 'Relaci&oacute;n <strong>calidad-precio incuestionable</strong> y ventajosa para nuestr@s alumn@s.'
+frontend.text.element_list3: '<strong>Financiaci&oacute;n</strong> de los cursos <strong>sin ning&uacute;n cargo</strong> a&ntilde;adido.'
+frontend.text.element_list4: 'Intermediaci&oacute;n y <strong>b&uacute;squeda activa de empleo</strong> para nuestr@s alumn@s. Publicaci&oacute;n de ofertas en nuestra Web.'
+frontend.text.element_list5: 'Contactos con empresas para <strong>trabajos en pr&aacute;cticas.</strong>'
+frontend.text.element_list6: '<strong>Grupos reducidos</strong> de m&aacute;ximo 14 alumn@s por clase para garantizar el seguimiento individual.'
+frontend.text.element_list7: '<strong>Portfolio</strong> p&uacute;blico de ARTENEO, donde se pueden ver los resultados de nuestr@ alumn@s a&ntilde;o tras a&ntilde;o.'
+frontend.text.element_list8: 'Posibilidad de asistir a una<strong>Clase Demo</strong>, ocasi&oacute;n de probar antes de elegir, sin ning&uacute;n compromiso.'
+frontend.text.element_list9: 'Organizaci&oacute;n peri&oacute;dica de <strong>Talleres y Masterclasses, gratuitos</strong> para l@s alumn@s de ARTENEO.'
+frontend.text.element_list10: '<strong>Calendario lectivo</strong> oficial con recuperaci&oacute;n de clase en caso de incidencia responsabilidad de la Escuela.'
+frontend.text.element_list11: '<strong>Control de calidad permanente</strong> a trav&eacute;s de encuestas realizadas a l@s alumn@s tanto presenciales como online.'
+frontend.text.element_list12: 'Todo el <strong>material</strong> necesario para el trabajo individual de l@s estudiantes est&aacute; <strong>incluido.</strong>'
+frontend.text.element_list13: 'Cursos <strong>Intensivos de verano</strong> como complemento adicional a la formaci&oacute;n o como ocasi&oacute;n para confirmar tu vocaci&oacute;n profesional.'
+
+frontend.text.formacion_oficial: Formaci&oacute;n Oficial
+frontend.text.element_list_formacion_oficial_1: 'dise&ntilde;o de productos gr&aacute;ficos<br><span>ARGG0110</span>'
+frontend.text.element_list_formacion_oficial_2: 'ilustraci&aacute;n<br><span>ARGG0212</span>'
+frontend.text.element_list_formacion_oficial_3: 'desarrollo de productos editoriales multimedia<br><span>ARGN0110</span>'
+frontend.text.element_list_formacion_oficial_4: 'desarrollo de productos audiovisuales multimedia interactivos<br><span>IMSV0209</span>'
+
+frontend.text.master_profesionales: M&aacute;ster Profesionales
+frontend.text.element_list_master_profesionales_1: 'concept art, Zbrush y grafismo para videojuegos'
+frontend.text.element_list_master_profesionales_2: 'infoarquitectura 3D e interiores'
+frontend.text.element_list_master_profesionales_3: 'creaci&oacute;n de portfolio'
+frontend.text.element_list_master_profesionales_4: 'ilustraci&oacute;infantil'
+
+frontend.text.curso_intensivo: Curso Intensivo
+frontend.text.element_list_curso_intensivo_1: 'ilustraci&oacute;n digital con COREL PAINTER'
+frontend.text.element_list_curso_intensivo_2: 'ilustraci&oacute;n digital'
+frontend.text.element_list_curso_intensivo_3: 'c&oacute;mic'
+frontend.text.element_list_curso_intensivo_4: 'photoshop, illustrator &oacute; indesign'
+frontend.text.element_list_curso_intensivo_5: 'dise&ntilde;o gr&aacute;fico'
+frontend.text.element_list_curso_intensivo_6: 'wordpress'
+frontend.text.element_list_curso_intensivo_7: 'posicionamiento SEO, SEM, y Google Adwords'
+frontend.text.element_list_curso_intensivo_8: 'modelado 3D con Zbrush'
+frontend.text.element_list_curso_intensivo_9: 'creaci&oacute;n de tipograf&iacute;a'
+
+frontend.text.titulacion_privada: Titulaci&oacute;n privada
+frontend.text.element_list_titulacion_privada_1: 'dise&ntilde;o gr&aacute;fico y dise&ntilde;o web'
+frontend.text.element_list_titulacion_privada_2: 'superior de dise&ntilde;o gr&aacute;fico'
+frontend.text.element_list_titulacion_privada_3: 'motion graphics'
+frontend.text.element_list_titulacion_privada_4: 'superior de programaci&oacute;n web'
+frontend.text.element_list_titulacion_privada_5: 'ilustraci&oacute;n editorial y digital'
+frontend.text.element_list_titulacion_privada_6: 'c&oacute;mic'
+frontend.text.element_list_titulacion_privada_7: 'dibujo para tatuadores'
+frontend.text.element_list_titulacion_privada_8: 'ilustraci&oacute;n los s&aacute;bados'
+frontend.text.element_list_titulacion_privada_9: 'videojuegos para dispositivos moviles'
+frontend.text.element_list_titulacion_privada_10: 'grado profesional en ine de animacion 3D, ilustracion y videojuegos'
+frontend.text.element_list_titulacion_privada_11: 'superior de fotograf&iacute;a profesional'
+frontend.text.element_list_titulacion_privada_12: 'caracterizaci&oacute;n y FX'
+
+frontend.text.conctact_subtitle: 'UNA ATENCI&Oacute;N PERSONALIZADA'
+frontend.text.contact: 'Si deseas recibir m&aacute;s informaci&oacute;n sobre un &aacute;rea espec&iacute;fica de nuestra formaci&oacute;n puedes ponerte en contacto con nosotros a trav&eacute;s del siguiente formulario.'

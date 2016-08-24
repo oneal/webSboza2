@@ -19,19 +19,19 @@ class MenuBuilder implements  ContainerAwareInterface {
     {
         $menu = $factory->createItem('root');
 
-        $menu->addChild("Nuestro centro", array(
+        $menu->addChild("frontend.title.our_center", array(
             'uri' => '#nuestro-centro',
         ));
-        $menu->addChild("Nuestros equipo", array(
+        $menu->addChild("frontend.title.team", array(
             'uri' => '#nuestros-equipo',
         ));
-        $menu->addChild("Nuestros cursos", array(
+        $menu->addChild("frontend.title.our_curses", array(
             'uri' => '#nuestros-cursos',
         ));
-        $menu->addChild("Siempre a la ultima", array(
+        $menu->addChild("frontend.title.news_home", array(
             'uri' => '#siempre-a-la-ultima',
         ));
-        $menu->addChild("Contacto", array(
+        $menu->addChild("frontend.title.contact", array(
             'uri' => '#contacto',
         ));
 
@@ -45,19 +45,19 @@ class MenuBuilder implements  ContainerAwareInterface {
         $menu = $factory->createItem('root');
         $menu->setChildrenAttributes(array('class' => 'hamburgler-menu-list'));
 
-        $menu->addChild("Nuestro centro", array(
+        $menu->addChild("frontend.title.our_center", array(
             'uri' => '#nuestro-centro',
         ));
-        $menu->addChild("Nuestros equipo", array(
+        $menu->addChild("frontend.title.team", array(
             'uri' => '#nuestros-equipo',
         ));
-        $menu->addChild("Nuestros cursos", array(
+        $menu->addChild("frontend.title.our_curses", array(
             'uri' => '#nuestros-cursos',
         ));
-        $menu->addChild("Siempre a la ultima", array(
+        $menu->addChild("frontend.title.news_home", array(
             'uri' => '#siempre-a-la-ultima',
         ));
-        $menu->addChild("Contacto", array(
+        $menu->addChild("frontend.title.contact", array(
             'uri' => '#contacto',
         ));
 

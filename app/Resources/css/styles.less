@@ -1,12 +1,13 @@
 @import 'fonts.less';
 @import "reset.less";
+@import "color.less";
 
 body{
   width: 100%;
   margin: 0 auto;
   font-family: "HelveticaNeueLTStd Lt", arial, sans-serif;
   overflow-x: hidden !important;
-  background: #80cc28;
+  background: @green;
 }
 
 
@@ -78,14 +79,14 @@ body{
     }
     .phone{
       font-size: 18px;
-      color: #aa198d;
+      color: @pink;
     }
     .link-email{
-      border-right: 2px solid #000;
+      border-right: 2px solid @black;
       padding-right: 12px;
     }
     a{
-      color: #000;
+      color: @black;
       text-decoration: none;
     }
   }
@@ -96,14 +97,14 @@ body{
     font-weight: bold;
     font-size: 14px;
     .date{
-      border-right: 2px solid #000;
+      border-right: 2px solid @black;
       padding-right: 12px;
     }
     .campus-header{
       padding-left: 9px;
     }
     a{
-      color: #000;
+      color: @black;
       text-decoration: none;
     }
     .social-networks{
@@ -145,7 +146,7 @@ header{
 .header{
   width: 100%;
   margin: 0 auto;
-  background: #fff;
+  background: @white;
   .logo{
     width: 20%;
     display: inline-block;
@@ -175,11 +176,11 @@ header{
     display: inline-block;
     text-align: center;
     text-decoration: none;
-    color: #000000;
+    color: @black;
   }
 
   nav li a {
-    border-right: 1px solid #000000;
+    border-right: 1px solid @black;
     padding: 0 10px;
   }
 
@@ -193,14 +194,14 @@ header{
 }
 
 .contact-now{
-  background: #fff;
+  background: @white;
   padding: 8px 15px 4px 17px;
   border-radius: 5px 5px 5px 5px;
   -moz-border-radius: 5px 5px 5px 5px;
   -webkit-border-radius: 5px 5px 5px 5px;
   border: 0;
   text-decoration: none;
-  color: #000;
+  color: @black;
 }
 
 .text-contact-now{
@@ -214,13 +215,15 @@ header{
 }
 
 .content{
-  color: #fff;
-  background: #fff;
-  padding-top: 200px;
+  color: @white;
+  background: @white;
+  padding-top: 160px;
   .info-thank{
     text-align: center;
     font-family: "Bebas Neue", arial, sans-serif;
     font-size: 47px;
+    color: @black;
+    height: 400px;
   }
   .logo-thanks{
     i{
@@ -256,7 +259,7 @@ header{
   }
 
   .our_center{
-    color: #000000;
+    color: @black;
     padding-bottom: 60px;
     #text{
       text-align: center;
@@ -265,7 +268,7 @@ header{
         letter-spacing: 11px;
         font-size: 18px;
         padding-bottom: 28px;
-        color: #aaa;
+        color: @gray;
       }
       h3{
         font-family: "Bebas Neue", arial, sans-serif;
@@ -289,14 +292,14 @@ header{
         text-transform: uppercase;
         font-size: 36px;
         letter-spacing: 1px;
-        color: #aa198d;
+        color: @pink;
         padding-bottom: 12px;
       }
       ul{
         font-size: 20px;
         width: 66%;
         margin: 0 auto;
-        list-style-image: url("../img/green_cube.png");
+        list-style-image: url("../img/icons/icon-list.svg");
         li{
           padding-bottom: 19px;
         }
@@ -309,7 +312,7 @@ header{
     letter-spacing: 11px;
     font-size: 18px;
     padding-bottom: 28px;
-    color: #aaa;
+    color: @gray;
     text-align: center;
   }
 
@@ -317,7 +320,7 @@ header{
     text-align: center;
     line-height: 35px;
     text-transform: uppercase;
-    color: #fff;
+    color: @white;
     padding: 25px 0 27px;
     .text{
       font-size: 26px;
@@ -331,7 +334,7 @@ header{
   }
 
   .our_cursos{
-    color: #000000;
+    color: @black;
     padding-bottom: 60px;
     #spacing{
       width: 1%;
@@ -347,14 +350,14 @@ header{
       width: 24%;
       display: inline-block;
       vertical-align: top;
-      background: #aa198d;
+      background: @pink;
       height: 650px;
       font-size: 13px;
       font-weight: bold;
       ul{
         list-style: none;
         text-align: center;
-        color: #ffffff;
+        color: @white;
         li{
           padding-bottom: 12px;
         }
@@ -366,14 +369,14 @@ header{
       width: 23%;
       display: inline-block;
       vertical-align: top;
-      background: #80cc28;
+      background: @green;
       height: 650px;
       font-size: 13px;
       font-weight: bold;
       ul{
         list-style: none;
         text-align: center;
-        color: #ffffff;
+        color: @white;
         li{
           padding-bottom: 12px;
         }
@@ -392,7 +395,7 @@ header{
       .title-team{
         font-family: "Bebas Neue", arial, sans-serif;
         font-size: 40px;
-        color:#000000;
+        color:@black;
         padding-bottom: 12px;
       }
       .team-person {
@@ -401,7 +404,7 @@ header{
         display: inline-block;
         text-align: center;
         p{
-          color: #80cc28;
+          color: @green;
         }
         img{
           background-repeat: no-repeat;
@@ -415,7 +418,7 @@ header{
   }
 
   .news{
-    color: #000000;
+    color: @black;
     padding-bottom: 60px;
     .new{
       .img-new{
@@ -424,7 +427,7 @@ header{
         img{
           width: 350px;
           height: 350px;
-          background: #000000;
+          background: @black;
         }
       }
       .text-new{
@@ -437,7 +440,7 @@ header{
 
   .content-form{
     margin-top: 110px;
-    background: #aa198d;
+    background: @pink;
     .footer-form{
       margin-top: 42px;
       ul{
@@ -458,7 +461,7 @@ header{
           width: 90%;
           a{
             text-decoration: none;
-            color: #ffffff;
+            color: @white;
           }
         }
 
@@ -476,7 +479,7 @@ header{
         .text-form{
           text-align: center;
           h2{
-            color: #999999;
+            color: @gray;
             letter-spacing: 10px;
             text-transform: uppercase;
             padding-top: 43px;
@@ -499,8 +502,8 @@ header{
               -moz-border-radius: 5px 5px 5px 5px;
               -webkit-border-radius: 5px 5px 5px 5px;
               border: none;
-              color: #aa198d;
-              background: #fff;
+              color: @pink;
+              background: @white;
               padding: 5px 55px;
             }
             input{
@@ -537,7 +540,7 @@ header{
 
 .footer{
   width: 100%;
-  background: #80cc28;
+  background: @green;
   height: 100%;
   position: relative;
   .logo-footer{
@@ -554,7 +557,7 @@ header{
     }
     a{
       text-decoration: none;
-      color: #000;
+      color: @black;
     }
   }
   .text-contact-now{
