@@ -7,6 +7,8 @@ web/sboza2/*
 .idea/misc.xml
 .idea/modules.xml
 .idea/vcs.xml
+.idea/workspace.xml
+.idea/sboza2.iml
 .idea/webSboza2.iml
 web/bundles/framework
 web/sboza2/
