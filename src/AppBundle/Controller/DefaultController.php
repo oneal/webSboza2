@@ -27,48 +27,23 @@ class DefaultController extends Controller
         );
     }
 
-    public function contactHome(Request $request)
-    {
-        $contactModel = new Contact();
 
-        $form = $this->createForm(ContactType::class, $contactModel);
 
-        $form->handleRequest($request);
+    /**
+     * @Route("/curso-superior-de-ilustracion-digital-y-tradicional", name="courseIlustrationDigitalTraditional")
+     */
 
-        if($form->isValid()){
-            $em = $this->getDoctrine()->getManager();
-            $em->persist($form->getData());
-            $em->flush();
+    public function courseIlustrationDigitalTraditionalAction(Request $request){
+        $form = $this->contactHome($request);
 
-            /*$message = \Swift_Message::newInstance()
-                ->setSubject('Hello Email')
-                ->setFrom($form->getData()->getEmail())
-                ->setTo('info@amcinformatica.com')
-                ->setBody(
-                    $this->renderView(
-                    // app/Resources/views/Emails/registration.html.twig
-                        'Emails/contact.html.twig', array(
-                            'data' => $form->getData()
-                        )
-                    ),
-                    'text/html'
-                )->addPart('text/plain');
-                mail()
-            $this->get('mailer')->send($message);*/
-
-            $headers = "From: ".$form->getData()->getEmail();
-
-            mail("info@sboza2.com","Solicitud Curso sboza2",
-                utf8_decode(strip_tags($this->renderView(
-                'Emails/contact.html.twig', array(
-                    'data' => $form->getData()
-                )
-            ))),$headers);
-
+        if($form->isSubmitted()){
+            return $this->redirectToRoute('thanks');
         }
 
-        return $form;
-
+        return $this->render('desktop/courses/course_ilustration_digital_traditional.html.twig', array(
+                'form' => $form->createView()
+            )
+        );
     }
 
     /**
@@ -85,6 +60,34 @@ class DefaultController extends Controller
         $cursos = $em->findBy('name');
 
         return $cursos;
+
+    }
+
+    public function contactHome(Request $request)
+    {
+        $contactModel = new Contact();
+
+        $form = $this->createForm(ContactType::class, $contactModel);
+
+        $form->handleRequest($request);
+
+        if($form->isValid()){
+            $em = $this->getDoctrine()->getManager();
+            $em->persist($form->getData());
+            $em->flush();
+
+            $headers = "From: ".$form->getData()->getEmail();
+
+            mail("info@sboza2.com","Solicitud Curso sboza2",
+                utf8_decode(strip_tags($this->renderView(
+                    'Emails/contact.html.twig', array(
+                        'data' => $form->getData()
+                    )
+                ))),$headers);
+
+        }
+
+        return $form;
 
     }
 }

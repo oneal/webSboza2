@@ -1,0 +1,25 @@
+{% extends 'base.html.twig' %}
+
+{% block content %}
+    <div class="content-courses">
+        <div class="wrapper-content">
+            <div class="slide_show">
+                <div class="wrapper_content_slide_course">
+                    <ul class="bxslider1">
+                        <li><img src="{{ asset('sboza2/img/course/course-ilustration-digital-traditional/img1.png') }}" /></li>
+                        <li><img src="{{ asset('sboza2/img/course/course-ilustration-digital-traditional/img4.png') }}" /></li>
+                    </ul>
+                </div>
+                <div class="wrapper_content_slide_course">
+                    <ul class="bxslider2">
+                        <li><img src="{{ asset('sboza2/img/course/course-ilustration-digital-traditional/img2.png') }}" /></li>
+                        <li><img src="{{ asset('sboza2/img/course/course-ilustration-digital-traditional/img3.png') }}" /></li>
+                    </ul>
+                </div>
+            </div>
+
+            {% include ':desktop:_contactHome.html.twig' with { 'form' : form } %}
+
+        </div>
+    </div>
+{% endblock %}
