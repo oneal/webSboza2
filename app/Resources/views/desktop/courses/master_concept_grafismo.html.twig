@@ -1,0 +1,93 @@
+{% extends 'base.html.twig' %}
+
+{% block content %}
+    <div class="content-courses">
+        <div class="wrapper-content-course">
+            <div class="slide_show">
+                <div class="wrapper_content_slide_course">
+                    <ul class="bxslider1">
+                        <li><img src="{{ asset('sboza2/img/course/master-concept-grafismo/img1.png') }}" /></li>
+                        <li><img src="{{ asset('sboza2/img/course/master-concept-grafismo/img3.png') }}" /></li>
+                    </ul>
+                </div>
+                <div class="wrapper_content_slide_course">
+                    <ul class="bxslider2">
+                        <li><img src="{{ asset('sboza2/img/course/master-concept-grafismo/img2.png') }}" /></li>
+                        <li><img src="{{ asset('sboza2/img/course/master-concept-grafismo/img4.png') }}" /></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="slide_show_one_column">
+                <div class="wrapper_content_slide_course">
+                    <ul class="bxslider1">
+                        <li><img src="{{ asset('sboza2/img/course/master-concept-grafismo/img1.png') }}" /></li>
+                        <li><img src="{{ asset('sboza2/img/course/master-concept-grafismo/img3.png') }}" /></li>
+                        <li><img src="{{ asset('sboza2/img/course/master-concept-grafismo/img2.png') }}" /></li>
+                        <li><img src="{{ asset('sboza2/img/course/master-concept-grafismo/img4.png') }}" /></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="header_content_courser">
+            <div class="wrapper-content-course">
+                <p class="small">
+                    curso acad&eacute;mico de un a&ntilde;o
+                </p>
+                <div class="one_column">
+                    <p>
+                        master en
+                    </p>
+                    <p class="pink">
+                        concept y grafismo<br>
+                        para videojuegos<br>
+                        con Zbrush<br>
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="body_content_courser">
+            <div class="wrapper-content-course">
+                <div class="content-text">
+                    <p class="title">
+                        &iquest; PARA QUE TE PREPARA SBOZA2 ?
+                    </p>
+                    <p class="text">
+                        Sboza2 tiene como finalidad preparar al alumno para que sea capaz de dibujar y conceptualizar adapt&aacute;ndose al estilo deseado, podr&aacute; conocer herramientas de animaci&oacute;n e ilustraci&oacute;n digital, adem&aacute;s de modelar y texturizar personajes, criaturas y entornos. En el modelado y rigging de personajes son necesarios conocimientos amplios de anatom&iacute;a humana, que se impartir&aacute;n tambi&eacute;n a lo largo del a&ntilde;o.
+                        <br><br>
+                        Durante el curso podr&aacute;s crear un portafolio valido para ser presentado ante cualquier empresa del sector donde mostrar tus cualidades como artista gr&aacute;fico.                    </p>
+                </div>
+                <img src="{{ asset('sboza2/img/course/btn-download-02.png') }}">
+            </div>
+        </div>
+        <div class="footer_content_courser">
+            <div class="wrapper-content-course">
+                <div class="content-text">
+                    <div class="icon">
+                        <img src ="{{ asset('sboza2/img/course/master-concept-grafismo/icon-course.svg') }}"/>
+                    </div>
+                    <p class="title">
+                        DATOS DE INTER&Eacute;S
+                    </p>
+                    <p class="text">
+                        <strong>Duraci&oacute;n del curso:</strong> Un a&ntilde;o, plazas limitadas<br>
+                        <strong>Curso acad&eacute;mico:</strong> De octubre a julio<br>
+                        <strong>Diplomatura:</strong> Privada<br>
+                        <strong>Titulaci&oacute;n:</strong> M&aacute;ster en Concept y Grafismo para <br>videojuegos con Zbrush
+                        <br><br>
+
+                        <strong>Curso totalmente pr&aacute;ctico.<br>
+                        4 d&iacute;as a la semana, 3 horas diarias.<br>
+                        480 horas lectivas anuales.<br>
+                        M&aacute;s de 300 horas de pr&aacute;cticas libres.</strong><br>
+                        (Las horas de practicas libres corresponden al uso de las instalaciones, que el alumno podr&aacute; utilizar con total libertad sin ning&uacute;n tipo de coste adicional para la realizaci&oacute;n de sus proyectos)<br><br>
+
+                        <strong>Grupos de ma&ntilde;ana y tarde.<br>
+                        Todo el material que el alumno precisa para la realizaci&oacute;n del curso corre por cuenta de la escuela.</strong><br><br>
+                    </p>
+                </div>
+
+            </div>
+        </div>
+        {% include ':desktop:_contactHome.html.twig' with { 'form' : form } %}
+    </div>
+{% endblock %}

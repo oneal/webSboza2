@@ -7,8 +7,82 @@
             <div class="text-contact-now">
                 <a class="contact-now" href="tel:+34669970256">Contactar ahora</a><a href="tel:+34669970256"><img src="{{ asset('sboza2/img/icons/Icono 2-02.svg') }}"></a><a id="link-whatsapp"><img src="{{ asset('sboza2/img/icons/Icono 2-06.svg') }}"></a>
             </div>
+            <br>
+        </div>
+        <div class="menu_courses">
+            <div class="wrapper-content-menu-courses">
+                <h3>NUESTROS CURSOS</h3>
+                <div class="fourth_column">
+                    <div class="header_courses">
+                        <h3 class="title">Dise&ntilde;o</h3>
+                        <img src ="{{ asset('sboza2/img/icons/curso1.svg') }}"/>
+                        <p>...</p>
+                    </div>
+                    <ul>
+                        <li><a href="{{ path('courseGraphicDesignAndWeb') }}">- curso de<br>
+                            DISE&Ntilde;O GR&aacute;FICO Y WEB</a></li>
+                        <li><a href="{{ path('masterEditorialDesign') }}"><img src="{{ asset('sboza2/img/icons/icon-list.svg') }}"> - M&Aacute;STER DE<br>
+                            DISE&Ntilde;O EDITORIAL, PUBLICITARIO Y DISE&Ntilde;O WEB</a></li>
+                        <li><a href="{{ path('superiorGgraphicDesign') }}"><img src="{{ asset('sboza2/img/icons/icon-list.svg') }}"> - curso superior de<br>
+                            DISE&Ntilde;O GR&Aacute;FICO</a></li>
+                        <li><a href="{{ path('cursoMotionGraphics') }}"><img src="{{ asset('sboza2/img/icons/icon-list.svg') }}"> - curso de<br>
+                            MOTION GRAPHICS</a></li>
+                    </ul>
+                </div>
+                <div class="fourth_column">
+                    <div class="header_courses">
+                        <h3 class="title">Varios</h3>
+                        <img src ="{{ asset('sboza2/img/icons/curso2.svg') }}">
+                        <p>...</p>
+                    </div>
+                    <ul>
+                        <li><a href="{{ path('courseWebProgrammer') }}">- curso Superior de<br>
+                                Programaci&oacute;n y desarrollo de aplicaciones web</a></li>
+                        <li>- Master en<br>
+                            creaci&oacute;n de Porfolio</li>
+                        <li><a href="{{ path('courseCharacterizationFx') }}">- curso de<br>
+                                Caracterizaci&oacute;n y Fx</a></li>
+                        <li>- curso de<br>
+                                Dibujo para tatuadores</li>
+                        <li>- curso superior de<br>
+                            Fotografia profesional</li>
+                    </ul>
+                </div>
+                <div class="fourth_column">
+                    <div class="header_courses">
+                        <h3 class="title">Dibujo</h3>
+                        <img src ="{{ asset('sboza2/img/icons/curso3.svg') }}">
+                        <p>...</p>
+                    </div>
+                    <ul>
+                        <li><a href="{{ path('courseOfComic') }}">- curso de<br>
+                                c&oacute;mic</a></li>
+                        <li><a href="{{ path('courseIlustrationDigitalTraditional') }}"><img src="{{ asset('sboza2/img/icons/icon-list.svg') }}"> - curso superior de<br>
+                                ilustraci&oacute;n tradicional y digital</a></li>
+                    </ul>
+                </div>
+                <div class="fourth_column">
+                    <div class="header_courses">
+                        <h3 class="title">3D</h3>
+                        <img src ="{{ asset('sboza2/img/icons/curso4.svg') }}">
+                        <p>...</p>
+                    </div>
+                    <ul>
+                        <li><a href="">- master en<br>
+                                infoarquitectura 3D e interiores</a></li>
+                        <li><a href="{{ path('grade3dFilm') }}"> - grado profesional en<br>
+                                cine de animaci&oacute;n 3D, videojuegos e ilustraci&oacute;n</a></li>
+                        <li><a href="{{ path('masterConceptGrafismo') }}"> - Masterd en<br>
+                                concept y grafismo para videojuegos con Zbrush</a></li>
+                        <li><a href="{{ path('courseMobileGame') }}"> - curso de<br>
+                                videojuegos para dispositivos m&oacute;viles</a></li>
+                    </ul>
+                </div>
+                <p><img src="{{ asset('sboza2/img/icons/icon-list.svg') }}"> CURSOS EN PROCESO DE HOLOGACI&Oacute;N</p>
+            </div>
+        </div>
+        <div class="wrapper-content">
             {% include ':desktop:_contactHome.html.twig' with { 'form' : form } %}
-
         </div>
     </div>
 {% endblock %}

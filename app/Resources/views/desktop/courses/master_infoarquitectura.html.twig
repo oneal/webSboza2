@@ -1,0 +1,93 @@
+{% extends 'base.html.twig' %}
+
+{% block content %}
+    <div class="content-courses">
+        <div class="wrapper-content-course">
+            <div class="slide_show">
+                <div class="wrapper_content_slide_course">
+                    <ul class="bxslider1">
+                        <li><img src="{{ asset('sboza2/img/course/master-infoarquitectura/img1.png') }}" /></li>
+                        <li><img src="{{ asset('sboza2/img/course/master-infoarquitectura/img3.png') }}" /></li>
+                    </ul>
+                </div>
+                <div class="wrapper_content_slide_course">
+                    <ul class="bxslider2">
+                        <li><img src="{{ asset('sboza2/img/course/master-infoarquitectura/img2.png') }}" /></li>
+                        <li><img src="{{ asset('sboza2/img/course/master-infoarquitectura/img4.png') }}" /></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="slide_show_one_column">
+                <div class="wrapper_content_slide_course">
+                    <ul class="bxslider1">
+                        <li><img src="{{ asset('sboza2/img/course/master-infoarquitectura/img1.png') }}" /></li>
+                        <li><img src="{{ asset('sboza2/img/course/master-infoarquitectura/img3.png') }}" /></li>
+                        <li><img src="{{ asset('sboza2/img/course/master-infoarquitectura/img2.png') }}" /></li>
+                        <li><img src="{{ asset('sboza2/img/course/master-infoarquitectura/img4.png') }}" /></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="header_content_courser">
+            <div class="wrapper-content-course">
+                <p class="small">
+                    curso acad&eacute;mico de un a&ntilde;o
+                </p>
+                <div class="one_column">
+                    <p>
+                        m&aacute;ster en
+                    </p>
+                    <p class="pink">
+                        infoarquitectura 3D<br>
+                        e interiores
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="body_content_courser">
+            <div class="wrapper-content-course">
+                <div class="content-text">
+                    <p class="title">
+                        &iquest; PARA QUE TE PREPARA SBOZA2 ?
+                    </p>
+                    <p class="text">
+                        Sboza2 te prepara para que te desenvuelvas con amplios conocimientos de 3D Studio Max, trabajaremos la Iluminaci&oacute;n, el modelado, el texturizado, la animaci&oacute;n, la post-producci&oacute;n y el renderizado.
+                        <br><br>
+                        Al finalizar el curso estar&aacute;s totalmente preparado para tu incorporaci&oacute;n al mercado laboral, este m&aacute;ster termina con un proyecto final que te sera de ayuda, o como complemento en la b&uacute;squeda de nuevos clientes.                        <br><br>
+                    </p>
+                </div>
+                <img src="{{ asset('sboza2/img/course/btn-download-02.png') }}">
+            </div>
+        </div>
+        <div class="footer_content_courser">
+            <div class="wrapper-content-course">
+                <div class="content-text">
+                    <div class="icon">
+                        <img src ="{{ asset('sboza2/img/course/master-infoarquitectura/icon-course.svg') }}"/>
+                    </div>
+                    <p class="title">
+                        DATOS DE INTER&Eacute;S
+                    </p>
+                    <p class="text">
+                        <strong>Duraci&oacute;n del curso:</strong> Un a&ntilde;o, plazas limitadas<br>
+                        <strong>Curso acad&eacute;mico:</strong> De octubre a julio<br>
+                        <strong>Diplomatura:</strong> Privada<br>
+                        <strong>Titulaci&oacute;n:</strong> M&aacute;ster en Infoarquitectura 3D e Interiores
+                        <br><br>
+
+                        <strong>Curso totalmente pr&aacute;ctico.<br>
+                        3 d&iacute;as a la semana, 4 horas diarias.<br>
+                        480 horas lectivas anuales.<br>
+                        M&aacute;s de 300 horas de pr&aacute;cticas libres.</strong><br>
+                        (Las horas de practicas libres corresponden al uso de las instalaciones, que el alumno podr&aacute; utilizar con total libertad sin ning&uacute;n tipo de coste adicional para la realizaci&oacute;n de sus proyectos)<br><br>
+
+                        <strong>Grupos de ma&ntilde;ana y tarde.<br>
+                        Todo el material que el alumno precisa para la realizaci&oacute;n del curso corre por cuenta de la escuela.</strong><br><br>
+                    </p>
+                </div>
+
+            </div>
+        </div>
+        {% include ':desktop:_contactHome.html.twig' with { 'form' : form } %}
+    </div>
+{% endblock %}

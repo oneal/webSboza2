@@ -45,6 +45,23 @@ class DefaultController extends Controller
     }
 
     /**
+     * @Route("/curso-disenio-grafico-y-web", name="courseGraphicDesignAndWeb")
+     */
+
+    public function courseGraphicDesignAndWebAction(Request $request){
+        $form = $this->contactHome($request);
+
+        if($form->isSubmitted()){
+            return $this->redirectToRoute('thanks');
+        }
+
+        return $this->render('desktop/courses/course_graphic_design_and_web.html.twig', array(
+                'form' => $form->createView()
+            )
+        );
+    }
+
+    /**
      * @Route("/curso-superior-disenio-grafico", name="superiorGgraphicDesign")
      */
 
@@ -56,6 +73,91 @@ class DefaultController extends Controller
         }
 
         return $this->render('desktop/courses/superior_graphic_design.html.twig', array(
+                'form' => $form->createView()
+            )
+        );
+    }
+
+    /**
+     * @Route("/curso-superior-programacion-web", name="courseWebProgrammer")
+     */
+
+    public function courseWebProgrammerAction(Request $request){
+        $form = $this->contactHome($request);
+
+        if($form->isSubmitted()){
+            return $this->redirectToRoute('thanks');
+        }
+
+        return $this->render('desktop/courses/course_web_programmer.html.twig', array(
+                'form' => $form->createView()
+            )
+        );
+    }
+
+    /**
+     * @Route("/curso-de-comic", name="courseOfComic")
+     */
+
+    public function courseOfComicAction(Request $request){
+        $form = $this->contactHome($request);
+
+        if($form->isSubmitted()){
+            return $this->redirectToRoute('thanks');
+        }
+
+        return $this->render('desktop/courses/course_of_comic.html.twig', array(
+                'form' => $form->createView()
+            )
+        );
+    }
+
+    /**
+     * @Route("/curso-videojuegos-moviles", name="courseMobileGame")
+     */
+
+    public function courseMobileGameAction(Request $request){
+        $form = $this->contactHome($request);
+
+        if($form->isSubmitted()){
+            return $this->redirectToRoute('thanks');
+        }
+
+        return $this->render('desktop/courses/course_mobile_game.html.twig', array(
+                'form' => $form->createView()
+            )
+        );
+    }
+
+    /**
+ * @Route("/master-concept-grafismo-para-videojuegos-zbrush", name="masterConceptGrafismo")
+ */
+
+    public function masterConceptGrafismoAction(Request $request){
+        $form = $this->contactHome($request);
+
+        if($form->isSubmitted()){
+            return $this->redirectToRoute('thanks');
+        }
+
+        return $this->render('desktop/courses/master_concept_grafismo.html.twig', array(
+                'form' => $form->createView()
+            )
+        );
+    }
+
+    /**
+     * @Route("/grado-profesional-cine-animacion-3d", name="grade3dFilm")
+     */
+
+    public function grade3dFilmAction(Request $request){
+        $form = $this->contactHome($request);
+
+        if($form->isSubmitted()){
+            return $this->redirectToRoute('thanks');
+        }
+
+        return $this->render('desktop/courses/animation_film.html.twig', array(
                 'form' => $form->createView()
             )
         );
@@ -124,6 +226,23 @@ class DefaultController extends Controller
         }
 
         return $this->render('desktop/courses/course_characterization_fx.html.twig', array(
+                'form' => $form->createView()
+            )
+        );
+    }
+
+    /**
+     * @Route("/curso-infoarquitectura-3d", name="masterInfoarquitectura")
+     */
+
+    public function masterInfoarquitecturaAction(Request $request){
+        $form = $this->contactHome($request);
+
+        if($form->isSubmitted()){
+            return $this->redirectToRoute('thanks');
+        }
+
+        return $this->render('desktop/courses/master_infoarquitectura.html.twig', array(
                 'form' => $form->createView()
             )
         );

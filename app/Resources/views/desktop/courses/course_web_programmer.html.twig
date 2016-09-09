@@ -1,0 +1,92 @@
+{% extends 'base.html.twig' %}
+
+{% block content %}
+    <div class="content-courses">
+        <div class="wrapper-content-course">
+            <div class="slide_show">
+                <div class="wrapper_content_slide_course">
+                    <ul class="bxslider1">
+                        <li><img src="{{ asset('sboza2/img/course/course-web-programmer/img1.png') }}" /></li>
+                        <li><img src="{{ asset('sboza2/img/course/course-web-programmer/img3.png') }}" /></li>
+                    </ul>
+                </div>
+                <div class="wrapper_content_slide_course">
+                    <ul class="bxslider2">
+                        <li><img src="{{ asset('sboza2/img/course/course-web-programmer/img2.png') }}" /></li>
+                        <li><img src="{{ asset('sboza2/img/course/course-web-programmer/img4.png') }}" /></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="slide_show_one_column">
+                <div class="wrapper_content_slide_course">
+                    <ul class="bxslider1">
+                        <li><img src="{{ asset('sboza2/img/course/course-web-programmer/img1.png') }}" /></li>
+                        <li><img src="{{ asset('sboza2/img/course/course-web-programmer/img2.png') }}" /></li>
+                        <li><img src="{{ asset('sboza2/img/course/course-web-programmer/img4.png') }}" /></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="header_content_courser">
+            <div class="wrapper-content-course">
+                <p class="small">
+                    curso acad&eacute;mico de dos a&ntilde;oS
+                </p>
+                <div class="one_column">
+                    <p>
+                        curso superior de
+                    </p>
+                    <p class="pink">
+                        Programac&oacute;n y<br>
+                        desarrollo de<br>
+                        aplicaciones web<br>
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="body_content_courser">
+            <div class="wrapper-content-course">
+                <div class="content-text">
+                    <p class="title">
+                        &iquest; PARA QUE TE PREPARA SBOZA2 ?
+                    </p>
+                    <p class="text">
+                        En sboza2, nuestro prop&oacute;sito es prepararte para poder realizar todo tipo de proyectos relacionados con el mundo web, ya sea el dise&ntilde;o y el desarrollo de una pagina o aplicaci&oacute;n, en el curso contaras con profesionales que te aconsejaran sobre las nuevas tendencias y software que saldr&aacute;n al mercado para estar siempre actualizado.
+                        <br><br>
+                        Al finalizar el curso estar&aacute;s preparado para abarcar cualquier proyectos profesional o personal, siendo capaz de resolver cualquier problema dando soluciones alternativas.                    </p>
+                </div>
+                <img src="{{ asset('sboza2/img/course/btn-download-02.png') }}">
+            </div>
+        </div>
+        <div class="footer_content_courser">
+            <div class="wrapper-content-course">
+                <div class="content-text">
+                    <div class="icon">
+                        <img src ="{{ asset('sboza2/img/course/course-web-programmer/icon-course.svg') }}"/>
+                    </div>
+                    <p class="title">
+                        DATOS DE INTER&Eacute;S
+                    </p>
+                    <p class="text">
+                        <strong>Duraci&oacute;n del curso:</strong> Dos a&ntilde;os, plazas limitadas<br>
+                        <strong>Curso acad&eacute;mico:</strong> De octubre a julio<br>
+                        <strong>Diplomatura:</strong> Privada<br>
+                        <strong>Titulaci&oacute;n:</strong> Curso superior de programaci&oacute;n y desarrollo de aplicaciones web
+                        <br><br>
+
+                        <strong>Curso totalmente pr&aacute;ctico.<br>
+                        4 d&iacute;as a la semana, 3 horas diarias.<br>
+                        480 horas lectivas anuales.<br>
+                        M&aacute;s de 300 horas de pr&aacute;cticas libres.</strong><br>
+                        (Las horas de practicas libres corresponden al uso de las instalaciones, que el alumno podr&aacute; utilizar con total libertad sin ning&uacute;n tipo de coste adicional para la realizaci&oacute;n de sus proyectos)<br><br>
+
+                        <strong>Grupos de ma&ntilde;ana y tarde.<br>
+                        Todo el material que el alumno precisa para la realizaci&oacute;n del curso corre por cuenta de la escuela.</strong><br><br>
+                    </p>
+                </div>
+
+            </div>
+        </div>
+        {% include ':desktop:_contactHome.html.twig' with { 'form' : form } %}
+    </div>
+{% endblock %}
