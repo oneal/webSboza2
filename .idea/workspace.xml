@@ -1,72 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="79be9e69-630f-4c20-95e9-97ed535f0df2" name="Default" comment="deleted directory .idea">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Resources/img/course/btn-download-02.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Resources/img/course/animation-film/img1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Resources/img/course/course-graphic-design-and-web/img1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Resources/img/course/course-mobile-game/img1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Resources/img/course/course-of-comic/img1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Resources/img/course/course-web-programmer/img1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Resources/img/course/master-concept-grafismo/img1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Resources/img/course/master-infoarquitectura/img1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Resources/img/course/animation-film/img2.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Resources/img/course/course-graphic-design-and-web/img2.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Resources/img/course/course-mobile-game/img2.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Resources/img/course/course-of-comic/img2.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Resources/img/course/course-web-programmer/img2.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Resources/img/course/master-concept-grafismo/img2.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Resources/img/course/master-infoarquitectura/img2.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Resources/img/course/animation-film/img3.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Resources/img/course/course-graphic-design-and-web/img3.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Resources/img/course/course-mobile-game/img3.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Resources/img/course/course-of-comic/img3.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Resources/img/course/course-web-programmer/img3.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Resources/img/course/master-concept-grafismo/img3.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Resources/img/course/master-infoarquitectura/img3.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Resources/img/course/animation-film/img4.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Resources/img/course/course-graphic-design-and-web/img4.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Resources/img/course/course-mobile-game/img4.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Resources/img/course/course-of-comic/img4.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Resources/img/course/course-web-programmer/img4.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Resources/img/course/master-concept-grafismo/img4.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Resources/img/course/master-infoarquitectura/img4.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Resources/css/1259.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Resources/views/desktop/courses/animation_film.html.twig" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Resources/views/desktop/courses/course_graphic_design_and_web.html.twig" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Resources/views/desktop/courses/course_mobile_game.html.twig" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Resources/views/desktop/courses/course_of_comic.html.twig" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Resources/views/desktop/courses/course_web_programmer.html.twig" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Resources/img/icons/curso1.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Resources/img/icons/curso2.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Resources/img/icons/curso3.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Resources/img/icons/curso4.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Resources/img/course/animation-film/icon-course.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Resources/img/course/course-graphic-design-and-web/icon-course.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Resources/img/course/course-mobile-game/icon-course.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Resources/img/course/course-of-comic/icon-course.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Resources/img/course/course-web-programmer/icon-course.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Resources/img/course/master-concept-grafismo/icon-course.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Resources/img/course/master-infoarquitectura/icon-course.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Resources/img/icons/icon-list.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Resources/views/desktop/courses/master_concept_grafismo.html.twig" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Resources/views/desktop/courses/master_infoarquitectura.html.twig" />
-      <change type="MOVED" beforePath="C:\xampp\htdocs\sboza2\app\Resources\views\desktop\courses\course_characterization_fx.twig" afterPath="$PROJECT_DIR$/app/Resources/views/desktop/courses/course_characterization_fx.html.twig" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Resources/css/1024.less" afterPath="$PROJECT_DIR$/app/Resources/css/1024.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Resources/css/320.less" afterPath="$PROJECT_DIR$/app/Resources/css/320.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Resources/css/480.less" afterPath="$PROJECT_DIR$/app/Resources/css/480.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Resources/css/600.less" afterPath="$PROJECT_DIR$/app/Resources/css/600.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Resources/css/800.less" afterPath="$PROJECT_DIR$/app/Resources/css/800.less" />
+    <list default="true" id="79be9e69-630f-4c20-95e9-97ed535f0df2" name="Default" comment="finish all courses">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Resources/img/course/porfolio-creation/img1.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Resources/img/course/porfolio-creation/img2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Resources/img/course/porfolio-creation/img3.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Resources/img/course/porfolio-creation/img4.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Resources/img/course/porfolio-creation/icon-course.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Resources/views/desktop/courses/porfolio_creation.html.twig" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/AppBundle/Controller/DefaultController.php" afterPath="$PROJECT_DIR$/src/AppBundle/Controller/DefaultController.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Resources/views/desktop/_contactHome.html.twig" afterPath="$PROJECT_DIR$/app/Resources/views/desktop/_contactHome.html.twig" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Resources/views/desktop/courses/course_motion_graphics.html.twig" afterPath="$PROJECT_DIR$/app/Resources/views/desktop/courses/course_motion_graphics.html.twig" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Resources/views/desktop/index.html.twig" afterPath="$PROJECT_DIR$/app/Resources/views/desktop/index.html.twig" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Resources/views/desktop/courses/master_editorial_design.html.twig" afterPath="$PROJECT_DIR$/app/Resources/views/desktop/courses/master_editorial_design.html.twig" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Resources/css/responsive.css" afterPath="$PROJECT_DIR$/app/Resources/css/responsive.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Resources/css/responsive.less" afterPath="$PROJECT_DIR$/app/Resources/css/responsive.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Resources/css/styles.css" afterPath="$PROJECT_DIR$/app/Resources/css/styles.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Resources/css/styles.less" afterPath="$PROJECT_DIR$/app/Resources/css/styles.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Resources/views/desktop/courses/superior_graphic_design.html.twig" afterPath="$PROJECT_DIR$/app/Resources/views/desktop/courses/superior_graphic_design.html.twig" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="sboza2.iws" />
@@ -89,26 +31,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="800.less" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/Resources/css/800.less">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-1.6037736">
-              <caret line="6" column="17" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="master_editorial_design.html.twig" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/Resources/views/desktop/courses/master_editorial_design.html.twig">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-3.1153846">
-              <caret line="53" column="22" selection-start-line="35" selection-start-column="16" selection-end-line="53" selection-end-column="22" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="course_ilustration_digital_traditional.html.twig" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/Resources/views/desktop/courses/course_ilustration_digital_traditional.html.twig">
           <provider selected="true" editor-type-id="text-editor">
@@ -132,17 +54,37 @@
       <file leaf-file-name="DefaultController.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/AppBundle/Controller/DefaultController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-18.807692">
-              <caret line="244" column="69" selection-start-line="244" selection-start-column="46" selection-end-line="244" selection-end-column="69" />
+            <state vertical-scroll-proportion="-8.054545">
+              <caret line="263" column="63" selection-start-line="263" selection-start-column="46" selection-end-line="263" selection-end-column="63" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="master_infoarquitectura.html.twig" pinned="false" current-in-tab="true">
+      <file leaf-file-name="porfolio_creation.html.twig" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/Resources/views/desktop/courses/porfolio_creation.html.twig">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-2.107143">
+              <caret line="52" column="529" selection-start-line="52" selection-start-column="521" selection-end-line="52" selection-end-column="529" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="icon-course.svg" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/Resources/img/course/porfolio-creation/icon-course.svg">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="master_infoarquitectura.html.twig" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/Resources/views/desktop/courses/master_infoarquitectura.html.twig">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.521576">
+            <state vertical-scroll-proportion="-3.3095238">
               <caret line="83" column="52" selection-start-line="83" selection-start-column="44" selection-end-line="83" selection-end-column="52" />
               <folding />
             </state>
@@ -203,7 +145,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/app/AppKernel.php" />
         <option value="$PROJECT_DIR$/app/config/config_prod.yml" />
         <option value="$PROJECT_DIR$/app/config/config_dev.yml" />
         <option value="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Transport/StreamBuffer.php" />
@@ -251,9 +192,10 @@
         <option value="$PROJECT_DIR$/app/Resources/views/desktop/courses/master_concept_grafismo.html.twig" />
         <option value="$PROJECT_DIR$/app/Resources/views/desktop/courses/master_editorial_design.html.twig" />
         <option value="$PROJECT_DIR$/app/Resources/css/styles.less" />
-        <option value="$PROJECT_DIR$/src/AppBundle/Controller/DefaultController.php" />
         <option value="$PROJECT_DIR$/app/Resources/views/desktop/courses/animation_film.html.twig" />
         <option value="$PROJECT_DIR$/app/Resources/views/desktop/courses/master_infoarquitectura.html.twig" />
+        <option value="$PROJECT_DIR$/src/AppBundle/Controller/DefaultController.php" />
+        <option value="$PROJECT_DIR$/app/Resources/views/desktop/courses/porfolio_creation.html.twig" />
       </list>
     </option>
   </component>
@@ -420,6 +362,36 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="course" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sboza2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sboza2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="web" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sboza2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="img" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="course" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="porfolio-creation" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -835,6 +807,36 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="porfolio-creation" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sboza2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sboza2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Resources" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="img" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="course" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="master-infoarquitectura" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -907,10 +909,10 @@
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\xampp\htdocs\sboza2\web\sboza2\img\course" />
-      <recent name="C:\xampp\htdocs\sboza2\app\Resources\img\course\master-infoarquitectura" />
+      <recent name="C:\xampp\htdocs\sboza2\app\Resources\img\course\porfolio-creation" />
       <recent name="C:\xampp\htdocs\sboza2\app\Resources\views\desktop\courses" />
+      <recent name="C:\xampp\htdocs\sboza2\app\Resources\img\course\master-infoarquitectura" />
       <recent name="C:\xampp\htdocs\sboza2\web\sboza2\css" />
-      <recent name="C:\xampp\htdocs\sboza2\app\Resources\img\course\animation-film" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\xampp\htdocs\sboza2\app\Resources\img\course" />
@@ -1049,15 +1051,22 @@
       <option name="project" value="LOCAL" />
       <updated>1473202213760</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="finish all courses">
+      <created>1473379451313</created>
+      <option name="number" value="00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1473379451313</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1296" height="776" extended-state="0" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.26537216" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.26537216" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.34577388" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -1067,7 +1076,6 @@
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -1099,27 +1107,14 @@
     <MESSAGE value="add link menu" />
     <MESSAGE value="deleted directory .idea" />
     <MESSAGE value="added courses" />
-    <option name="LAST_COMMIT_MESSAGE" value="added courses" />
+    <MESSAGE value="finish all courses" />
+    <option name="LAST_COMMIT_MESSAGE" value="finish all courses" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/web/sboza2/img/logo.svg">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Resources/img/logo.svg">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/Resources/views/desktop/_header_top.html.twig">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -1250,6 +1245,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.08629441">
           <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1453,14 +1449,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/AppBundle/Controller/DefaultController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-18.807692">
-          <caret line="244" column="69" selection-start-line="244" selection-start-column="46" selection-end-line="244" selection-end-column="69" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/Resources/img/course/master-infoarquitectura/icon-course.svg">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -1479,8 +1467,32 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/Resources/views/desktop/courses/master_infoarquitectura.html.twig">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.521576">
+        <state vertical-scroll-proportion="-3.3095238">
           <caret line="83" column="52" selection-start-line="83" selection-start-column="44" selection-end-line="83" selection-end-column="52" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/AppBundle/Controller/DefaultController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-8.054545">
+          <caret line="263" column="63" selection-start-line="263" selection-start-column="46" selection-end-line="263" selection-end-column="63" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Resources/views/desktop/courses/porfolio_creation.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-2.107143">
+          <caret line="52" column="529" selection-start-line="52" selection-start-column="521" selection-end-line="52" selection-end-column="529" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Resources/img/course/porfolio-creation/icon-course.svg">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>

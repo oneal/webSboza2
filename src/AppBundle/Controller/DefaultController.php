@@ -249,6 +249,24 @@ class DefaultController extends Controller
     }
 
 
+
+    /**
+     * @Route("/master-en-creacion-de-porfolio", name="porfolioCreation")
+     */
+
+    public function porfolioCreationAction(Request $request){
+        $form = $this->contactHome($request);
+
+        if($form->isSubmitted()){
+            return $this->redirectToRoute('thanks');
+        }
+
+        return $this->render('desktop/courses/porfolio_creation.html.twig', array(
+                'form' => $form->createView()
+            )
+        );
+    }
+
     /**
      * @Route("/gracias", name="thanks")
      */

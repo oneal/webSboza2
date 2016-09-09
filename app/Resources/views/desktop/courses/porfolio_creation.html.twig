@@ -1,0 +1,91 @@
+{% extends 'base.html.twig' %}
+
+{% block content %}
+    <div class="content-courses">
+        <div class="wrapper-content-course">
+            <div class="slide_show">
+                <div class="wrapper_content_slide_course">
+                    <ul class="bxslider1">
+                        <li><img src="{{ asset('sboza2/img/course/porfolio-creation/img1.png') }}" /></li>
+                        <li><img src="{{ asset('sboza2/img/course/porfolio-creation/img3.png') }}" /></li>
+                    </ul>
+                </div>
+                <div class="wrapper_content_slide_course">
+                    <ul class="bxslider2">
+                        <li><img src="{{ asset('sboza2/img/course/porfolio-creation/img2.png') }}" /></li>
+                        <li><img src="{{ asset('sboza2/img/course/porfolio-creation/img4.png') }}" /></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="slide_show_one_column">
+                <div class="wrapper_content_slide_course">
+                    <ul class="bxslider1">
+                        <li><img src="{{ asset('sboza2/img/course/porfolio-creation/img1.png') }}" /></li>
+                        <li><img src="{{ asset('sboza2/img/course/porfolio-creation/img3.png') }}" /></li>
+                        <li><img src="{{ asset('sboza2/img/course/porfolio-creation/img2.png') }}" /></li>
+                        <li><img src="{{ asset('sboza2/img/course/porfolio-creation/img4.png') }}" /></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="header_content_courser">
+            <div class="wrapper-content-course">
+                <p class="small">
+                    curso acad&eacute;mico de un a&ntilde;o
+                </p>
+                <div class="one_column">
+                    <p>
+                        m&aacute;ster en
+                    </p>
+                    <p class="pink">
+                        creaci&oacute;n de Porfolio
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="body_content_courser">
+            <div class="wrapper-content-course">
+                <div class="content-text">
+                    <p class="title">
+                        &iquest; PARA QUE TE PREPARA SBOZA2 ?
+                    </p>
+                    <p class="text">
+                        Nuestra finalidad en el curso es realizar un portfolio personal a traves de la obtenci&oacute;n de Artes Finales de alta calidad, cuyos trabajos tendran un acabo profesional y competitivo, imprescindible para acceder al mercado laboral. El portfolio es para los profesionales la herramienta de presentaci&oacute;n que les permite competir con éxito, demostrando a sus futuros clientes la calidad de sus trabajos y la amplitud de sus conocimientos. El asesoramiento profesional de temas legales, as&iacute; como técnicas de entrevista son fundametales para obtener buenos resultados.
+                        <br><br>
+                        No podemos olvidar que en numerosas ocasiones la diferencia entre conseguir un buen trabajo o no, la marca la calidad del portfolio que se presenta, y c&oacute;mo lo presentemos.                    </p>
+                </div>
+                <img src="{{ asset('sboza2/img/course/btn-download-02.png') }}">
+            </div>
+        </div>
+        <div class="footer_content_courser">
+            <div class="wrapper-content-course">
+                <div class="content-text">
+                    <div class="icon">
+                        <img src ="{{ asset('sboza2/img/course/porfolio-creation/icon-course.svg') }}"/>
+                    </div>
+                    <p class="title">
+                        DATOS DE INTER&Eacute;S
+                    </p>
+                    <p class="text">
+                        <strong>Duraci&oacute;n del curso:</strong> Un a&ntilde;o, plazas limitadas<br>
+                        <strong>Curso acad&eacute;mico:</strong> De octubre a julio<br>
+                        <strong>Diplomatura:</strong> Privada<br>
+                        <strong>Titulaci&oacute;n:</strong> M&aacute;ster en creaci&oacute;n de portfolio
+                        <br><br>
+
+                        <strong>Curso totalmente pr&aacute;ctico.<br>
+                        1 d&iacute;a a la semana, 3 horas diarias.<br>
+                        80 horas lectivas.<br>
+                        M&aacute;s de 600 horas de pr&aacute;cticas libres.</strong><br>
+                        (Las horas de practicas libres corresponden al uso de las instalaciones, que el alumno podr&aacute; utilizar con total libertad sin ning&uacute;n tipo de coste adicional para la realizaci&oacute;n de sus proyectos)<br><br>
+
+                        <strong>Grupos de ma&ntilde;ana y tarde.<br>
+                        Todo el material que el alumno precisa para la realizaci&oacute;n del curso corre por cuenta de la escuela.</strong><br><br>
+                    </p>
+                </div>
+
+            </div>
+        </div>
+        {% include ':desktop:_contactHome.html.twig' with { 'form' : form } %}
+    </div>
+{% endblock %}
