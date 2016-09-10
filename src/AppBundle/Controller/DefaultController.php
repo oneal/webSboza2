@@ -7,6 +7,7 @@ use AppBundle\Form\ContactType;
 use Sensio\Bundle\FrameworkExtraBundle\Configuration\Route;
 use Symfony\Bundle\FrameworkBundle\Controller\Controller;
 use Symfony\Component\HttpFoundation\Request;
+use Symfony\Component\HttpFoundation\Response;
 
 class DefaultController extends Controller
 {
@@ -297,14 +298,15 @@ class DefaultController extends Controller
             $em->persist($form->getData());
             $em->flush();
 
-            $headers = "From: ".$form->getData()->getEmail();
 
-            mail("info@sboza2.com","Solicitud Curso sboza2",
-                utf8_decode(strip_tags($this->renderView(
+            $headers = "MIME-Version: 1.0" . "\r\n";
+            $headers .= "Content-type:text/html;charset=UTF-8" . "\r\n";
+            $headers .= "From: <".$form->getData()->getEmail().">\r\n";
+            mail("info@sboza2.com", "Solicitud Curso sboza2",
+                $this->renderView(
                     'Emails/contact.html.twig', array(
                         'data' => $form->getData()
-                    )
-                ))),$headers);
+                    )),$headers);
 
         }
 
