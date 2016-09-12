@@ -3,6 +3,14 @@
 <div class="content-form">
 
 <div class="content-form">
+    {% if course is defined and course == 1 %}
+        <div class="wrapper-content">
+            <div class="text-contact-now">
+                <a class="contact-now" href="tel:+34669970256">Contactar ahora</a><a href="tel:+34669970256"><img src="{{ asset('sboza2/img/icons/Icono 2-02.svg') }}"></a><a id="link-whatsapp"><img src="{{ asset('sboza2/img/icons/Icono 2-06.svg') }}"></a>
+            </div>
+            <br>
+        </div>
+    {% endif %}
     <div class="form">
         <div class="wrapper-form">
             <div class="text-form">

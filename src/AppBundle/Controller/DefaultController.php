@@ -182,7 +182,7 @@ class DefaultController extends Controller
     }
 
     /**
-     * @Route("/curso-superior-de-ilustracion-digital-y-tradicional", name="courseIlustrationDigitalTraditional")
+     * @Route("/curso-superior-de-ilustracion-editorial-y-digital", name="courseIlustrationDigitalTraditional")
      */
 
     public function courseIlustrationDigitalTraditionalAction(Request $request){
