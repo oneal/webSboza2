@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{% block title %}Escuela de dise&ntilde;o Sboza2{% endblock %}</title>
+    <meta name="description" content="Escuela de dise&ntilde;o sboza2 con cursos en ilustraci&oacute;n, dise&ntilde;o, 3D, videojuegos, programaci&oacute;n web y artes visuales.">
+    <meta name="keywords" content="Escuela de dise&ntilde;o sboza2, escuela de dise&ntilde;o, cursos dise&ntilde;o granada, cursos dise&ntilde;o 3D, cursos dise&ntilde;o grafico, cursos programaci&oacute;n web, cursos de ilustraci&oacute;n en granada, escula de programaci&oacute;n de videojuegos granada, cursos aplicaciones moviles granada.">
+    {% block stylesheets %}{% endblock %}
+    <link rel="icon" type="image/x-icon" href="{{ asset('favicon.ico') }}" />
+    <link href="{{ asset('sboza2/css/font-awesome.min.css') }}" rel="stylesheet" />
+    <script src="{{ asset('sboza2/js/jquery-3.1.0.min.js') }}"></script>
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
+</head>
+<body>
+{% block header %}
+{% endblock %}
+{% block content %}{% endblock %}
+{% block footer %}
+{% endblock %}
+{% block javascripts %}{% endblock %}
+</body>
+</html>
