@@ -1,0 +1,24 @@
+{% extends "base_admin.html.twig" %}
+
+{% block content %}
+    <div class="container-fluid">
+        <div class="list-group">
+            {% for page in pages %}
+                <a href="{{ path('adminPage', {'id': page.id} ) }}" class="list-group-item" id="{{ page.id }}">{{ page.title }}</a>
+            {% endfor %}
+        </div>
+    </div>
+{% endblock %}
+
+{% block javascripts %}
+    {{ parent() }}
+    <script>
+        $('.list-group-item').on('click', function(){
+            if(!$(this).hasClass('active')){
+                $('.list-group-item').removeClass('active');
+                $(this).addClass('active');
+            }
+        });
+    </script>
+
+{% endblock %}

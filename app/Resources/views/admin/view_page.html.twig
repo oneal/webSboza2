@@ -1,0 +1,10 @@
+{% extends "base_admin.html.twig" %}
+
+{% block content %}
+    <div class="container-fluid">
+        <div class="list-group">
+            <h2>{{ page[0].title }}</h2>
+            <p>{{ page[0].content | raw }}</p>
+        </div>
+    </div>
+{% endblock %}

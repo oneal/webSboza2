@@ -40,14 +40,26 @@ class AdminController extends Controller
     }
 
     /**
-     * @Route("/admin/pages", name="admin")
+     * @Route("/admin/pages", name="adminPages")
      */
     public function adminPagesAction(Request $request)
     {
-        $webConfig = $this->get("webconfig");
-        die(var_dump($webConfig->getPages()));
-        return $this->render("admin/admin_pages.html.twig", array());
+        $webConfig = $this->get('webconfig');
+        $pages = $webConfig->getPages();
+        return $this->render("admin/pages.html.twig", array('pages' => $pages));
     }
+
+    /**
+     * @Route("/admin/pages/{id}", name="adminPage")
+     */
+    public function adminPageAction(Request $request, $id)
+    {
+        $webConfig = $this->get('webconfig');
+        $page = $webConfig->getPageById($id);
+        return $this->render("admin/view_page.html.twig", array('page' => $page));
+    }
+
+
 
 
 

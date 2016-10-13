@@ -1,0 +1,20 @@
+<header>
+    <div class="container-fluid">
+        <div class="logo">
+            <img src="{{ asset('sboza2/img/logo-footer.svg') }}">
+        </div>
+        <nav class="navbar navbar-inverse">
+            <div class="navbar-header">
+                <button type="button" class="collapsed navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-9" aria-expanded="false">
+                    <span class="sr-only">Toggle navigation</span> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span>
+                </button>
+                <a href="{{ path('admin') }}" class="navbar-brand">AdminZone</a>
+            </div>
+            <ul class="nav navbar-nav">
+                <li><a href="{{ path('admin') }}">Home</a></li>
+                <li><a href="{{ path('adminPages') }}">Páginas</a></li>
+                <li><a href="#">Entradas</a></li>
+            </ul>
+        </nav>
+    </div>
+</header>

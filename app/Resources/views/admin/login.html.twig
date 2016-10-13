@@ -1,5 +1,7 @@
 {% extends 'base_admin.html.twig' %}
 
+{% block header %}{% endblock %}
+
 {% block content %}
     <form action="{{ path('login_check') }}" method="post">
         <label for="username">Username:</label>
