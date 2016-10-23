@@ -5,7 +5,7 @@ namespace AppBundle\Entity;
 /**
  * New
  */
-class New
+class News
 {
     /**
      * @var int

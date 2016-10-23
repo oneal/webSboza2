@@ -2,9 +2,18 @@
 
 {% block content %}
     <div class="container-fluid">
+        <div class="row">
+            <div class="col-xs-12">
+                <a class="btn btn-primary" href="{{ path('adminCreatePage') }}" role="button">Crear Nueva pagina</a>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid">
         <div class="list-group">
             {% for page in pages %}
                 <a href="{{ path('adminPage', {'id': page.id} ) }}" class="list-group-item" id="{{ page.id }}">{{ page.title }}</a>
+                <a class="btn btn-info" href="{{ path('adminPage', {'id': page.id} ) }}" role="button">Modificar</a>
+                <a class="btn btn-danger" href="{{ path('adminDeletePage', {'id': page.id} ) }}" role="button">Borrar</a>
             {% endfor %}
         </div>
     </div>
